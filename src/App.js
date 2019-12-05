@@ -5,7 +5,7 @@ import BioSection from './components/BioSection/BioSection'
 import SkillsSection from './components/SkillsSection/SkillsSection'
 import ProjectsSection from './components/ProjectsSection/ProjectsSection'
 import ContactInfoSection from './components/ContactInfoSection/ContactInfoSection'
-
+import NavBar from './components/NavBar/NavBar'
 class App extends React.Component {
 
   render() {
@@ -16,6 +16,7 @@ class App extends React.Component {
 
           <section role="contentinfo" className={styles.titleSection} id="title">
             <TitleSection />
+            <NavBar />
           </section>
 
           <section role="contentinfo" className={styles.bioSection}>
