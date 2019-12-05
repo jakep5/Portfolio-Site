@@ -10,7 +10,7 @@ export default class TitleSection extends Component {
     render() {
 
         return (
-            <div role="contentinfo" className={styles.main}>
+            <div role="contentinfo" className={styles.main} >
 
                 <section role="contentinfo">
                     <h1 className={styles.name}>Hi, I'm Jake Pagel</h1>

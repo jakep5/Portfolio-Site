@@ -1,12 +1,24 @@
 import React, { Component } from 'react'
 import styles from './styles.module.css'
+import jQuery from 'jquery'
 
 export default class ContactInfoSection extends Component {
+
+    componentDidMount() {
+        jQuery(document).ready(function($) {
+          $("a#scrollTop").on("click", function(e) {
+            e.preventDefault();
+            $("body, html").animate({ 
+              scrollTop: $( $(this).attr('href') ).offset().top 
+            }, 600);
+          });
+        });
+    }
 
     render() {
 
         return (
-            <div role="contactInfo" className={styles.contactInfoWrapper} id="contactInfoWrapper">
+            <div role="contactInfo" className={styles.contactInfoWrapper} id="contactInfo">
                 <div role="contactInfoHolder" className={styles.contactInfoHolder}>
                     <h1 className={styles.contactHeader}>
                         Contact me!
@@ -20,7 +32,9 @@ export default class ContactInfoSection extends Component {
 
                     <p className={styles.contact}>linkedin: <a href="https://www.linkedin.com/in/jake-pagel-38b243191/" target="_blank">Jake Pagel</a></p>
                 </div>
-                <a href="#main" class="scroll-downTop" id="scrollTop" address="true"></a>
+                <div role="buttonHolder3" className={styles.buttonHolder3}>
+                        <a href="#title" className={styles.scrollDown} id="scrollTop" address="true"></a>
+                </div>
             </div>
         )
     }

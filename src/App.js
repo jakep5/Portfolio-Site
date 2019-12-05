@@ -14,7 +14,7 @@ class App extends React.Component {
       <main className='App'>
         <div className={styles.mainWrapper} role="presentation">
 
-          <section role="contentinfo" className={styles.titleSection}>
+          <section role="contentinfo" className={styles.titleSection} id="title">
             <TitleSection />
           </section>
 

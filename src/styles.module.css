@@ -22,6 +22,10 @@ div.mainWrapper {
     height: 100%;
 }
 
+.contactSection {
+    height: 100%;
+}
+
 
 @keyframes animatedBackground {
 	from { background-position: 0 0; }

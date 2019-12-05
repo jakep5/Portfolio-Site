@@ -18,7 +18,7 @@ export default class ProjectsSection extends Component {
     render() {
 
         return (
-            <div role="wrapper" className={styles.projectWrapper}>    
+            <div role="wrapper" className={styles.projectWrapper} id="projects">    
                     <div role="bioDisplay" className={styles.projectHolder}>
                         <h1 className={styles.projectHeading}>
                             <u>PROJECTS</u>
