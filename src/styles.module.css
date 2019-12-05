@@ -2,7 +2,7 @@ div.mainWrapper {
     height: 100%;
     text-align: center;
     width: 100%;
-    background-image: url("https://user-images.githubusercontent.com/53489910/65709761-1e951300-e081-11e9-85ac-6e8ea2082e8b.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0, 0.164)), url("https://images.wallpaperscraft.com/image/milky_way_starry_sky_galaxy_119519_1920x1080.jpg");
     background-size: cover;
 }
 
@@ -27,17 +27,25 @@ div.mainWrapper {
 }
 
 
-@keyframes animatedBackground {
-	from { background-position: 0 0; }
-	to { background-position: -10000px 0; }
+@keyframes scrollH {
+  100% {
+    /* reverse scroll */
+    background-position: calc(-1 * var(--bg-width)) 0;
+  }
 }
 
 @media only screen and (min-width: 960px) {
     div.mainWrapper {
+        --bg-width: 1920px;
+        --bg-height: 1900px;
         background-repeat: repeat-x;
         background-position: 0 0;
-        background-size: auto 100%;
-        animation: animatedBackground 1000s linear infinite;
+        background-size: var(--bg-width) 100%;
+        background-attachment: fixed;
+        animation: scrollH linear 66s infinite;
+        transform: translate3D(0,0,0);
+        will-change: background-position;
+
     }
 
 }

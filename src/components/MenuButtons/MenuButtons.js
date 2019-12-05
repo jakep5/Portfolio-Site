@@ -23,7 +23,7 @@ export default class MenuButtons extends Component {
             <>
                 <button name="gitHub" type="button" id="github" className={styles.homepageButton}><i className={styles.faGithub}></i></button>
                 <button name="email" type="button" id="email" className={styles.homepageButton}><i className={styles.faEnvelopeOpenText}></i></button>
-                <button name="contactInfo" type="button" id="contactInfo" className={styles.homepageButton}><i className={styles.faIdCard}></i></button>
+                <button name="contactInfo" type="button" id="contactInfo" className={styles.homepageButtonContact}><i className={styles.faIdCard}></i></button>
                 <button name="email" type="button" id="misc" className={styles.homepageButton}></button>
 
                 <div role="buttonHolder3" className={styles.buttonHolder3}>
