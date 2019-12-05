@@ -1,0 +1,7 @@
+div.mainWrapper {
+    height: 750px;
+    text-align: center;
+    width: 100%;
+    background-image: url("https://user-images.githubusercontent.com/53489910/65709761-1e951300-e081-11e9-85ac-6e8ea2082e8b.jpg");
+    background-size: cover;
+}

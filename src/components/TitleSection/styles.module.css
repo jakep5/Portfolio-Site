@@ -1,0 +1,27 @@
+
+div.main {
+    text-align: center;
+    display: inline-block;
+    margin-top: 120px;
+}
+
+div.buttonHolder {
+    display: inline-block;
+    position: relative;
+    top: 40px;
+    width: 650px;
+    margin-top: 25px;
+}
+
+h1.name {
+    color: white;
+    font-size: 50px;
+    font-weight: 1000;
+    font-family: 'Source Sans Pro', sans-serif;
+    -webkit-animation: fadein 6s; 
+    -moz-animation: fadein 6s; 
+        -ms-animation: fadein 6s; 
+        -o-animation: fadein 6s; 
+            animation: fadein 6s;
+    margin-block-end: 20px;
+}
