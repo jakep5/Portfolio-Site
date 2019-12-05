@@ -25,3 +25,16 @@ h1.name {
             animation: fadein 6s;
     margin-block-end: 20px;
 }
+
+.intro {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 50px;
+    -webkit-animation: fadein 6s; 
+    -moz-animation: fadein 6s; 
+        -ms-animation: fadein 6s; 
+        -o-animation: fadein 6s; 
+            animation: fadein 6s;
+}

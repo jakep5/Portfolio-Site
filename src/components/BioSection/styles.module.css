@@ -1,0 +1,35 @@
+.bioWrapper {
+    height: 800px;
+    width: 100%;
+    background-image: url("https://stmed.net/sites/default/files/leather-textures-wallpapers-25244-3443181.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.bioHolder {
+    border: none;
+    height: 600px;
+    width: 350px;
+    display: inline-block;
+    margin-top: 75px;
+    background-color: transparent;
+    text-align: center;
+}
+
+h1.bioHeading {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+p.bio {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    size: 14px;
+    margin-left: 8px;
+    margin-right: 8px;
+    text-align: left;
+    line-height: 20px;
+}

@@ -9,10 +9,10 @@ export default class MenuButtons extends Component {
         return (
 
             <>
-                <button name="gitHub" type="button" id="github" class="homepageButton"><i class="fab fa-github"></i></button>
-                <button name="email" type="button" id="email" class="homepageButton"><i class="fas fa-envelope-open-text"></i></button>
-                <button name="contactInfo" type="button" id="contactInfo" class="homepageButton"><i class="fas fa-id-card"></i></button>
-                <button name="email" type="button" id="misc" class="homepageButton"></button>
+                <button name="gitHub" type="button" id="github" className={styles.homepageButton}><i className={styles.faGithub}></i></button>
+                <button name="email" type="button" id="email" className={styles.homepageButton}><i className={styles.faEnvelopeOpenText}></i></button>
+                <button name="contactInfo" type="button" id="contactInfo" className={styles.homepageButton}><i className={styles.faIdCard}></i></button>
+                <button name="email" type="button" id="misc" className={styles.homepageButton}></button>
 
                 <div role="buttonHolder3" className={styles.buttonHolder3}>
                         <a href="#bio" class="scroll-down" id="scroll" address="true"></a>
