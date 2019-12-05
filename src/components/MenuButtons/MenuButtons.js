@@ -15,7 +15,7 @@ export default class MenuButtons extends Component {
                 <button name="email" type="button" id="misc" className={styles.homepageButton}></button>
 
                 <div role="buttonHolder3" className={styles.buttonHolder3}>
-                        <a href="#bio" class="scroll-down" id="scroll" address="true"></a>
+                        <a href="#bio" className={styles.scrollDown} id="scroll" address="true"></a>
                 </div>
             </>
         )

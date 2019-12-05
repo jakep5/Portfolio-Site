@@ -1,7 +1,39 @@
 div.mainWrapper {
-    height: 750px;
+    height: 100%;
     text-align: center;
     width: 100%;
     background-image: url("https://user-images.githubusercontent.com/53489910/65709761-1e951300-e081-11e9-85ac-6e8ea2082e8b.jpg");
     background-size: cover;
+}
+
+.titleSection {
+    height: 100%;
+}
+
+.bioSection {
+    height: 100%;
+}
+
+.skillsSection {
+    height: 100%;
+}
+
+.projectsSection {
+    height: 100%;
+}
+
+
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: -10000px 0; }
+}
+
+@media only screen and (min-width: 960px) {
+    div.mainWrapper {
+        background-repeat: repeat-x;
+        background-position: 0 0;
+        background-size: auto 100%;
+        animation: animatedBackground 1000s linear infinite;
+    }
+
 }

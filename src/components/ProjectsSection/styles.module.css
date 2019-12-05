@@ -1,0 +1,81 @@
+.projectWrapper {
+    height: 100%;
+    width: 100%;
+    background-image: url("https://stmed.net/sites/default/files/leather-textures-wallpapers-25244-3443181.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.projectHolder {
+    height: 700px;
+    width: 350px;
+    display: inline-block;
+    margin-top: 100px;
+    background-color: rgb(61, 61, 61);
+    text-align: center;
+}
+
+.projectHeading {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.projectHeadingTwo {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+h1.projects {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p.projectDescription {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+}
+
+img.githubIcon {
+    width:30px;
+    height: auto;
+}
+
+img.HTML5Icon {
+    width:30px;
+    height: auto;
+}
+
+img.cssIcon {
+    width:25px;
+    height: auto;
+}
+
+img.jqueryIcon {
+    width:30px;
+    height:auto;
+}
+
+img.javascriptIcon {
+    width: 30px;
+    height: auto;
+}
+
+img.quizScreenshot {
+    width: 325px;
+    height: auto;
+}
+
+@media only screen and (min-width: 960px) {
+    div.projectHolder {
+        float:left;
+        width: 70%;
+        height: 525px;
+        margin-top: 150px;
+        /* background-color: rgb(61, 61, 61); */
+        background-color: transparent;
+    }
+}

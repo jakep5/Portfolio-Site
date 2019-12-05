@@ -54,10 +54,7 @@ code {
 }
 
 
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: grey; }
-}
+
 
 @keyframes bounce {
   0%,

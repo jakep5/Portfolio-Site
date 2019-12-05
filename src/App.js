@@ -13,17 +13,17 @@ class App extends React.Component {
       <main className='App'>
         <div className={styles.mainWrapper} role="presentation">
 
-          <section role="contentinfo">
+          <section role="contentinfo" className={styles.titleSection}>
             <TitleSection />
           </section>
 
-          <section role="contentinfo">
+          <section role="contentinfo" className={styles.bioSection}>
             <BioSection />
           </section>
-          <section role="contentinfo">
+          <section role="contentinfo" className={styles.skillsSection}>
             <SkillsSection />
           </section>
-          <section role="contentinfo">
+          <section role="contentinfo" className={styles.projectsSection}>
             <ProjectsSection />
           </section>
         </div>
