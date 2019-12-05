@@ -4,6 +4,7 @@ import TitleSection from './components/TitleSection/TitleSection'
 import BioSection from './components/BioSection/BioSection'
 import SkillsSection from './components/SkillsSection/SkillsSection'
 import ProjectsSection from './components/ProjectsSection/ProjectsSection'
+import ContactInfoSection from './components/ContactInfoSection/ContactInfoSection'
 
 class App extends React.Component {
 
@@ -25,6 +26,9 @@ class App extends React.Component {
           </section>
           <section role="contentinfo" className={styles.projectsSection}>
             <ProjectsSection />
+          </section>
+          <section role="contentinfo" className={styles.contactSection}>
+            <ContactInfoSection />
           </section>
         </div>
       </main>

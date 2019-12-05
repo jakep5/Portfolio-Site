@@ -2,7 +2,10 @@ import React, { Component } from 'react'
 import MenuButtons from '../MenuButtons/MenuButtons'
 import styles from './styles.module.css'
 
+
 export default class TitleSection extends Component {
+
+    
 
     render() {
 

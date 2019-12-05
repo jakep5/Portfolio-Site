@@ -1,7 +1,21 @@
 import React, { Component } from 'react'
 import styles from './styles.module.css'
+import jQuery from 'jquery'
 
 export default class BioSection extends Component {
+
+    componentDidMount() {
+        jQuery(document).ready(function($) {
+          $("a#scrollBio").on("click", function(e) {
+            e.preventDefault();
+            $("body, html").animate({ 
+              scrollTop: $( $(this).attr('href') ).offset().top 
+            }, 600);
+          });
+        });
+    }
+
+
     render() {
         return (
             <div role="wrapper" className={styles.bioWrapper} id="bio">    
@@ -20,6 +34,9 @@ export default class BioSection extends Component {
                             playing guitar, or spending time outdoors. I love people and enjoy socializing with people I have never met before. I am
                             somewhat of an overthinker, so I have developed a habit of meditation and zoning out to music.  
                         </p>
+                    </div>
+                    <div role="buttonHolder3" className={styles.buttonHolder3}>
+                            <a href="#skills" className={styles.scrollDown} id="scrollBio" address="true"></a>
                     </div>
             </div>
         )

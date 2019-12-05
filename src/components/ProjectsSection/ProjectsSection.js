@@ -1,7 +1,19 @@
 import React, { Component } from 'react'
 import styles from './styles.module.css'
+import jQuery from 'jquery'
 
 export default class ProjectsSection extends Component {
+
+    componentDidMount() {
+        jQuery(document).ready(function($) {
+            $("a#scrollProjects").on("click", function(e) {
+                e.preventDefault();
+                $("body, html").animate({ 
+                scrollTop: $( $(this).attr('href') ).offset().top 
+                }, 600);
+            });
+        });
+    }
 
     render() {
 
@@ -32,6 +44,9 @@ export default class ProjectsSection extends Component {
                             updates with each question, the ability to restart the quiz after the final question, and an update of current score after
                             each question. These elements were grabbed and manipulated using JQuery and Javascript.
                         </p>
+                    </div>
+                    <div role="buttonHolder3" className={styles.buttonHolder3}>
+                            <a href="#contactInfo" className={styles.scrollDown} id="scrollProjects" address="true"></a>
                     </div>
             </div>
         )
