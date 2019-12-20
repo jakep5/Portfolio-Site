@@ -1,0 +1,45 @@
+.githubIcon {
+    width:30px;
+    height: auto;
+}
+
+.HTML5Icon {
+    width:35px;
+    height: auto;
+}
+
+.cssIcon {
+    width:25px;
+    height: auto;
+    margin-right: 6px;
+}
+
+.jqueryIcon {
+    width:30px;
+    height:auto;
+}
+
+.javascriptIcon {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.quizScreenshot {
+    width: 325px;
+    height: auto;
+}
+
+.reactIcon {
+    width: 30px;
+    height: auto;
+}
+.nodeIcon {
+    width: 55px;
+    height: auto;
+}
+.postgresIcon {
+    width: 30px;
+    height: auto;
+    margin-right: 12px;
+}

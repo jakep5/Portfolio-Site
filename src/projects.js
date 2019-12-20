@@ -8,22 +8,22 @@ let projects = [
         "languageIcons": [
             {
                 "alt": "React icon",
-                "class": "styles.reactIcon",
-                "src": "https://user-images.githubusercontent.com/53489910/71285518-4680d380-235d-11ea-99b4-53f1f7aab4a9.png"
+                "class": "reactIcon",
+                "src": "https://user-images.githubusercontent.com/53489910/71287326-04a55c80-2360-11ea-938c-5adfb757b701.png"
             },
             {
                 "alt": "Node.js icon",
-                "class": "styles.nodeIcon",
-                "src": "https://user-images.githubusercontent.com/53489910/71285507-441e7980-235d-11ea-9007-c9799d84e992.jpg"
+                "class": "nodeIcon",
+                "src": "https://user-images.githubusercontent.com/53489910/71287686-f441b180-2360-11ea-8a32-aa2e692e4b04.png"
             },
             {
                 "alt": "PostgreSQL icon",
-                "class": "styles.postgresIcon",
-                "src": "https://user-images.githubusercontent.com/53489910/71285514-454fa680-235d-11ea-9f00-061e6b24b071.jpg"
+                "class": "postgresIcon",
+                "src": "https://user-images.githubusercontent.com/53489910/71287714-028fcd80-2361-11ea-9869-e9dbe2b971d4.png"
             },
             {
                 "alt": "CSS icon",
-                "class": "styles.cssIcon",
+                "class": "cssIcon",
                 "src": "https://user-images.githubusercontent.com/53489910/65455801-85bf8700-de37-11e9-8f26-ccd241c07287.png",
             },
         ]
@@ -37,22 +37,22 @@ let projects = [
         "languageIcons": [
             {
                 "alt": "JavaScript icon",
-                "class": "styles.javascriptIcon",
+                "class": "javascriptIcon",
                 "src": "https://images.vexels.com/media/users/3/166403/isolated/preview/a5a33bf3004830a2bd581e9fa65de660-javascript-programming-language-icon-by-vexels.png"
             },
             {
                 "alt": "CSS icon",
-                "class": "styles.cssIcon",
+                "class": "cssIcon",
                 "src": "https://user-images.githubusercontent.com/53489910/65455801-85bf8700-de37-11e9-8f26-ccd241c07287.png",
             },
             {
                 "alt": "HTML5 icon",
-                "class": "styles.HTML5Icon",
+                "class": "HTML5Icon",
                 "src": "https://user-images.githubusercontent.com/53489910/65455804-86581d80-de37-11e9-93fb-fd0b10380102.png"
             },
             {
                 "alt": "jQuery icon",
-                "class": "styles.jqueryIcon",
+                "class": "jqueryIcon",
                 "src" : "https://user-images.githubusercontent.com/53489910/65455806-86581d80-de37-11e9-8be1-be1836c947d3.png"
             }
         ]
@@ -66,22 +66,22 @@ let projects = [
         "languageIcons": [
             {
                 "alt": "HTML5 icon",
-                "class": "styles.HTML5Icon",
+                "class": "HTML5Icon",
                 "src": "https://user-images.githubusercontent.com/53489910/65455804-86581d80-de37-11e9-93fb-fd0b10380102.png"
             },
             {
                 "alt": "jQuery icon",
-                "class": "styles.jqueryIcon",
+                "class": "jqueryIcon",
                 "src" : "https://user-images.githubusercontent.com/53489910/65455806-86581d80-de37-11e9-8be1-be1836c947d3.png"
             },
             {
                 "alt": "CSS icon",
-                "class": "styles.cssIcon",
+                "class": "cssIcon",
                 "src": "https://user-images.githubusercontent.com/53489910/65455801-85bf8700-de37-11e9-8f26-ccd241c07287.png",
             },
             {
                 "alt": "JavaScript icon",
-                "class": "styles.javascriptIcon",
+                "class": "javascriptIcon",
                 "src": "https://images.vexels.com/media/users/3/166403/isolated/preview/a5a33bf3004830a2bd581e9fa65de660-javascript-programming-language-icon-by-vexels.png"
             }
         ]

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import styles from './styles.module.css'
+import './styles.css'
 import jQuery from 'jquery'
 import projects from '../../projects';
 
@@ -66,7 +67,7 @@ export default class ProjectsSection extends Component {
                             <a href={projectStore[currentProject].githublink}>GitHub Repository</a>
 
                             <p className={styles.projectDescription}>
-                            {projectStore[currentProject].description}
+                                {projectStore[currentProject].description}
                             </p>
                         </div>
                     </div>

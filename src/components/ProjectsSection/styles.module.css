@@ -123,7 +123,13 @@ p.projectDescription {
 }
 
 .quizScreenshot {
-    width: 325px;
+    width: 400px;
+    height: auto;
+    margin-top: 15px;
+}
+
+.reactIcon {
+    width: 30px;
     height: auto;
 }
 
@@ -223,6 +229,7 @@ p.projectDescription {
         -o-animation: fadein 6s; 
             animation: fadein 6s;
 }
+
 
 
 @media only screen and (min-width: 960px) {
