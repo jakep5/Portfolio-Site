@@ -33,13 +33,20 @@
 }
 
 .projectHolder {
-    height: 700px;
+    height:100%;
     width: 350px;
-    display: inline-block;
+    background-color: rgb(29, 29, 29);
+    -moz-box-shadow: 0 0 15px #ccc;
+    -webkit-box-shadow: 0 0 15px #ccc;
+    box-shadow: 0 0 15px;
     margin-top: 100px;
-    background-color: rgb(61, 61, 61);
+    margin-bottom:50px;
     text-align: center;
+    position: relative;
+    bottom: 150px;
+    display: inline-block;
 }
+
 
 .projectHeading {
     font-family: 'Montserrat', sans-serif;
@@ -139,10 +146,9 @@ img.quizScreenshot {
 @media only screen and (min-width: 960px) {
     div.projectHolder {
         float:left;
-        width: 70%;
+        width: 60%;
         height: 525px;
-        margin-top: 150px;
+        margin-top: 300px;
         /* background-color: rgb(61, 61, 61); */
-        background-color: transparent;
     }
 }

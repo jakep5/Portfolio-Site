@@ -30,6 +30,8 @@ export default class BioSection extends Component {
                             creative outlet and motivates me to continually develop problem solving skills, which I have found to be extremely 
                             helpful in all areas of life!
 
+                        </p>
+                        <p className={styles.bioTwo}>
                             While not positioned infront of my computer, I can be found attempting to not die while running, playing with my dog, 
                             playing guitar, or spending time outdoors. I love people and enjoy socializing with people I have never met before. I am
                             somewhat of an overthinker, so I have developed a habit of meditation and zoning out to music.  

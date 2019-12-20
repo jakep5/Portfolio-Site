@@ -38,13 +38,18 @@
 }
 
 .bioHolder {
-    border: none;
-    height: 600px;
-    width: 350px;
-    display: inline-block;
-    margin-top: 75px;
-    background-color: transparent;
-    text-align: center;
+  height:500px;
+  width: 350px;
+  background-color: rgb(29, 29, 29);
+  -moz-box-shadow: 0 0 15px #ccc;
+  -webkit-box-shadow: 0 0 15px #ccc;
+  box-shadow: 0 0 15px;
+  margin-top: 0;
+  margin-bottom:0;
+  text-align: center;
+  position: relative;
+  bottom: 150px;
+  display: inline-block;
 }
 
 .scrollDown {
@@ -94,15 +99,38 @@
     line-height: 20px;
 }
 
+.bioTwo {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  size: 14px;
+  margin-left: 8px;
+  margin-right: 8px;
+  text-align: left;
+  line-height: 20px;
+}
+
 @media only screen and (min-width: 960px) {
     p.bio {
         line-height: 30px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    p.bioTwo {
+      line-height: 30px;
+      margin-left: 40px;
+      margin-right: 40px;
+      margin-top: 40px;
     }
 
     div.bioHolder {
         float: left;
         width: 40%;
-        height: 100%;
-        margin-top: 115px;
+        height: 60%;
+        margin-top: 300px;
+    }
+
+    h1.bioHeading {
+      font-size: 40px;
     }
 }
