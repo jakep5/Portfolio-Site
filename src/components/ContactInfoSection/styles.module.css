@@ -61,7 +61,7 @@
 div.contactInfoWrapper {
     width: 100%;
     height: 100%;
-    background-image: url("https://user-images.githubusercontent.com/53489910/65891994-0c72e780-e395-11e9-90c7-76d32aedd797.png");
+    background-image: url("https://www.elsetge.cat/myimg/f/143-1437980_4k-starry-night-sky-4k.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -84,6 +84,17 @@ div.contactInfoHolder {
 p.contact {
     font-family: 'Source Sans Pro', sans-serif;
     color: white;
+    font-size: 22px;
+    margin-top: 50px;
+}
+
+.contactHeader {
+  color: white;
+  font-size: 40px;
+}
+
+.contactInfoLink {
+  padding-left: 15px;
 }
 
 @media only screen and (min-width: 960px) {

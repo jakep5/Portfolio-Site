@@ -89,7 +89,7 @@
     font-size: 45px;
     border-radius: 50%;
     position: relative;
-    bottom: 13px;
+    bottom: 2px;
     margin-left: 20px;
     margin-right: 20px;
     color: transparent;
@@ -125,7 +125,7 @@
 
 .faEnvelopeOpenText {
     color: black;
-    margin-bottom: 7px;
+    margin-bottom: 4px;
 }
 
 .faIdCard {

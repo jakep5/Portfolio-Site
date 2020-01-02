@@ -26,7 +26,7 @@
 }
 
 .quizScreenshot {
-    width: 325px;
+    width: 150px;
     height: auto;
 }
 
@@ -42,4 +42,27 @@
     width: 30px;
     height: auto;
     margin-right: 12px;
+}
+
+.appLink {
+    margin-right: 25px;
+    position: relative;
+    top: 60px;
+}
+.githubLink {
+    position: relative;
+    top: 60px;
+}
+
+@media only screen and (min-width: 960px) {
+    .quizScreenshot {
+        width: 325px;
+        height: auto;
+    }
+    .appLink {
+        top: 15px;
+    }
+    .githubLink {
+        top: 15px;
+    }
 }
