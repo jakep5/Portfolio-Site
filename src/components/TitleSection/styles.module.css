@@ -55,7 +55,7 @@ h1.name {
     color: white;
     font-size: 50px;
     font-weight: 1000;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Roboto Condensed', Sans-Serif;
     -webkit-animation: fadein 6s; 
     -moz-animation: fadein 6s; 
         -ms-animation: fadein 6s; 
@@ -65,7 +65,7 @@ h1.name {
 }
 
 .intro {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Cabin', Sans-Serif;
     color: white;
     margin-left: 30px;
     margin-right: 30px;
@@ -83,7 +83,7 @@ h1.name {
         font-weight: bolder;
     }
     p.intro {
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: 'Cabin', Sans-Serif;
         color: white;
         margin-left: 30px;
         margin-right: 30px;
@@ -95,5 +95,11 @@ h1.name {
         animation: 
             typing 4.5s steps(40, end),
             blink-caret .75s step-end infinite;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .main {
+      margin-top: 60px !important;
     }
 }

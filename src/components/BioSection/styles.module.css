@@ -85,39 +85,39 @@
 }
 
 .bioHeading {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Condensed', Sans-Serif;
     color: white;
 }
 
 .bio {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Cabin', Sans-Serif;
     color: white;
     size: 14px;
     margin-left: 8px;
     margin-right: 8px;
     text-align: left;
-    line-height: 20px;
+    line-height: 22px;
 }
 
 .bioTwo {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Cabin', Sans-Serif;
   color: white;
   size: 14px;
   margin-left: 8px;
   margin-right: 8px;
   text-align: left;
-  line-height: 20px;
+  line-height: 22px;
 }
 
 @media only screen and (min-width: 960px) {
     p.bio {
-        line-height: 30px;
+        line-height: 2.1;
         margin-left: 40px;
         margin-right: 40px;
     }
 
     p.bioTwo {
-      line-height: 30px;
+      line-height: 2.1;
       margin-left: 40px;
       margin-right: 40px;
       margin-top: 40px;
@@ -125,7 +125,7 @@
 
     div.bioHolder {
         float: left;
-        width: 40%;
+        width: 800px;
         height: 60%;
         margin-top: 300px;
     }
@@ -133,4 +133,10 @@
     h1.bioHeading {
       font-size: 40px;
     }
+}
+
+@media only screen and (max-width: 380px) {
+  .bioHolder {
+    margin-top: 200px !important;
+  }
 }

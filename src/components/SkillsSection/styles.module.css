@@ -65,7 +65,7 @@
 }
 
 h1.skillsHeading {
-    font-family:'Montserrat', sans-serif;
+    font-family:'Roboto Condensed', Sans-Serif;
     color: white;
     size: 45px;
 }
@@ -98,7 +98,7 @@ div.skillsHolder {
 
 .img1, .img2, .img3 {
     display: block;
-    margin-left: 0;
+    margin-left: 10px;
     height: 150px;
     width: 330px;
 }
@@ -107,7 +107,7 @@ div.skillsHolder {
 @media only screen and (min-width: 960px) {
     div.skillsHolder {
         float:right;
-        width: 40%;
+        width: 900px;
         height: 60%;
         margin-top: 300px;
     }
@@ -118,7 +118,7 @@ div.skillsHolder {
 
     .img1, .img2, .img3 {
         display: block;
-        margin-left: 220px;
+        margin-left: calc(50% - 165px);
         height: 150px;
         width: 330px;
     }

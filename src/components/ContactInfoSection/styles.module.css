@@ -105,3 +105,13 @@ p.contact {
    }
 
 }
+
+@media only screen and (max-width: 380px) {
+  .contactInfoHolder {
+    margin-top: 70px !important;
+  }
+  
+  .main {
+    margin-top: 50px !important;
+  }
+}

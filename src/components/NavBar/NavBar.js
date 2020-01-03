@@ -63,10 +63,10 @@ export default class NavBar extends React.Component{
               </div>
 
               <div className={styles.navLinks}>
-                <a href="#bio" target="_blank" id="bioLink">Bio</a>
-                <a href="#skills" target="_blank" id="skillsLink">Skills</a>
-                <a href="#projects" target="_blank"id="projectsLink">Projects</a>
-                <a href="#contactInfo" target="_blank" id="contactInfoLink">Contact info</a>
+                <a href="#bio" target="_blank" className={styles.bioLink} id="bioLink">Bio</a>
+                <a href="#skills" target="_blank" className={styles.skillsLink} id="skillsLink">Skills</a>
+                <a href="#projects" target="_blank" className={styles.projectsLink} id="projectsLink">Projects</a>
+                <a href="#contactInfo" target="_blank" className={styles.contactInfoLink} id="contactInfoLink">Contact info</a>
               </div>
             </div>
         )

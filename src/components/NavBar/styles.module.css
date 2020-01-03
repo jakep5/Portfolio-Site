@@ -4,7 +4,6 @@
 
 body {
   margin: 0px;
-  font-family: 'segoe ui';
 }
 
 .nav {
@@ -95,6 +94,10 @@ body {
 .nav a:focus::after {
 	top: 0%;
 	opacity: 1;
+}
+
+a.bioLink, a.skillsLink, a.projectsLink, a.contactInfoLink {
+  font-family: 'Cabin', Sans-Serif;
 }
 
 @media (max-width:600px) {
