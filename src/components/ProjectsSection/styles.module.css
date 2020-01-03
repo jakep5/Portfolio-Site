@@ -246,13 +246,14 @@ a {
     }
 
     .quizScreenshot {
-        width: 375px;
+        width: 500px;
     }
 
     .projectScrollHolder {
         left: 680px;
         top: 347%;
         position: absolute;
+        margin-left: 0;
     }
 
     .scrollDownProject {
