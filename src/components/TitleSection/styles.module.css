@@ -77,7 +77,7 @@ h1.name {
             animation: fadein 6s;
 }
 
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 760px) {
     h1.name {
         font-size: 85px;
         font-weight: bolder;
@@ -85,19 +85,19 @@ h1.name {
     p.intro {
         font-family: 'Cabin', Sans-Serif;
         color: white;
-        margin-left: 30px;
-        margin-right: 30px;
+        margin-left: 200px;
+        margin-right: 200px;
         overflow: hidden; 
         border-right: .15em solid grey; 
         white-space: nowrap; 
         margin: 0 auto; 
-        letter-spacing: .15em; 
         animation: 
             typing 4.5s steps(40, end),
             blink-caret .75s step-end infinite;
     }
 }
 
+/* Styles for extra small mobile screens */
 @media only screen and (max-width: 380px) {
     .main {
       margin-top: 60px !important;

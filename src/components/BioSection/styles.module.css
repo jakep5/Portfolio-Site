@@ -109,7 +109,7 @@
   line-height: 22px;
 }
 
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 760px) {
     p.bio {
         line-height: 2.1;
         margin-left: 40px;
@@ -135,6 +135,8 @@
     }
 }
 
+
+/* Styles for extra small mobile screens */
 @media only screen and (max-width: 380px) {
   .bioHolder {
     margin-top: 200px !important;

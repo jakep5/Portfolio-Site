@@ -140,10 +140,9 @@ p.projectDescription {
     opacity: 1;
     -webkit-transition: all .5s ease-in 3s;
     transition: all .5s ease-in 3s;
-    position: relative;
+    position: absolute;
     top: 20px;
-    left: 50%;
-    margin-left: -40px;
+    left: 0px;
     display: block;
     width: 32px;
     height: 32px;
@@ -201,9 +200,9 @@ p.projectDescription {
   }
   
   .projectScrollHolder {
-      position: absolute;
-      top: 345%;
-      left: 56%;
+      position: relative;
+      bottom: 475px;
+      left: calc(50% - 20px);
   }
 
 .scrollDown:before {
@@ -237,18 +236,24 @@ a {
     color: white;
 }
 
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 760px) {
     div.projectHolder {
         float:left;
         width: 800px;
-        height: 525px;
+        height: 565px;
         margin-top: 300px;
         /* background-color: rgb(61, 61, 61); */
     }
 
+    .projectScrollHolder {
+        left: 680px;
+        top: 347%;
+        position: absolute;
+    }
+
     .scrollDownProject {
-        bottom: 30px;
-        margin-left: -16px;
+        margin-left: 0px;
+        top: -30px;
     }
 
     p.projectDescription {
@@ -263,8 +268,16 @@ a {
     div.projectHolder {
         width: 1200px;
     }
+
+    .projectScrollHolder {
+        left: 950px;
+        top: 345%;
+
+    }
 }
 
+
+/* Styles for extra small mobile screens */
 @media only screen and (max-width: 380px) {
     .quizScreenshot {
         width: 225px;
@@ -272,21 +285,19 @@ a {
     }
 
     .projectHolder {
-        height: 87%;
+        height: 650px;
     }
 
     .scrollDownProject {
-        margin-top: 25px;
+        margin-top: 10px;
         animation: none;
     }
 
     .projectDescription {
-        top: 50px !important;
+        top: 100px !important;
     }
 
     .scrollDown {
         bottom: 15px;
     }
-
-
 }

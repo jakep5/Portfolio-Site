@@ -97,7 +97,7 @@ p.contact {
   padding-left: 15px;
 }
 
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 760px) {
    div.contactInfoHolder {
        display: inline-block;
        width: 40%;
@@ -106,12 +106,9 @@ p.contact {
 
 }
 
+/* Styles for extra small mobile screens */
 @media only screen and (max-width: 380px) {
   .contactInfoHolder {
     margin-top: 70px !important;
-  }
-  
-  .main {
-    margin-top: 50px !important;
   }
 }

@@ -82,7 +82,7 @@ div.skillsWrapper {
 }
 
 div.skillsHolder {
-    height: 75%;
+    height: 550px;
     width: 350px;
     background-color: rgb(29, 29, 29);
     -moz-box-shadow: 0 0 15px #ccc;
@@ -104,7 +104,7 @@ div.skillsHolder {
 }
 
 
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 760px) {
     div.skillsHolder {
         float:right;
         width: 900px;
