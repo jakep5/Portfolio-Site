@@ -201,8 +201,8 @@ p.projectDescription {
   
   .projectScrollHolder {
       position: relative;
-      bottom: 475px;
-      left: calc(50% - 20px);
+      bottom: 69%;
+      margin-left: calc(50% - 15px);
   }
 
 .scrollDown:before {
@@ -240,9 +240,13 @@ a {
     div.projectHolder {
         float:left;
         width: 800px;
-        height: 565px;
-        margin-top: 300px;
+        height: 75%;
+        margin-top: 250px;
         /* background-color: rgb(61, 61, 61); */
+    }
+
+    .quizScreenshot {
+        width: 375px;
     }
 
     .projectScrollHolder {
@@ -257,7 +261,7 @@ a {
     }
 
     p.projectDescription {
-        top: 25px;
+        top: 75px;
         margin-left: 25px;
         margin-right: 25px;
         line-height: 1.75;
@@ -289,7 +293,7 @@ a {
     }
 
     .scrollDownProject {
-        margin-top: 10px;
+        margin-top: 40px;
         animation: none;
     }
 
