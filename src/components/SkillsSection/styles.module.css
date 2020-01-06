@@ -103,6 +103,11 @@ div.skillsHolder {
     width: 330px;
 }
 
+.skillsText {
+  color: white;
+  margin-top: 20px;
+}
+
 
 @media only screen and (min-width: 760px) {
     div.skillsHolder {
@@ -122,4 +127,24 @@ div.skillsHolder {
         height: 150px;
         width: 330px;
     }
+}
+
+/* Styles for extra small mobile screens */
+@media only screen and (max-width: 380px) and (max-height: 670px) {
+  .skillsHolder {
+    height: 575px !important;
+    margin-top: 175px !important;
+  }
+
+  .buttonHolder3 {
+    top: 302%;
+  }
+}
+
+/* iPhone 6/7/8 PLUS */
+
+@media only screen and (max-height: 740px) and (min-height: 675px) {
+  .skillsHolder {
+    height: 585px !important;
+  }
 }

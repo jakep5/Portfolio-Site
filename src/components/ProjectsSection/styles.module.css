@@ -61,13 +61,13 @@
 }
 
 .projectHolder {
-    height: 85%;
+    height: 79%;
     width: 350px;
     background-color: rgb(29, 29, 29);
     -moz-box-shadow: 0 0 15px #ccc;
     -webkit-box-shadow: 0 0 15px #ccc;
     box-shadow: 0 0 15px;
-    margin-top: 175px;
+    margin-top: 220px;
     margin-bottom:50px;
     text-align: center;
     position: relative;
@@ -98,6 +98,7 @@ p.projectDescription {
     color: white;
     position: relative;
     top: 75px;
+    line-height: 1.5;
 }
 
 .githubIcon {
@@ -201,7 +202,7 @@ p.projectDescription {
   
   .projectScrollHolder {
       position: relative;
-      bottom: 69%;
+      bottom: 63%;
       margin-left: calc(50% - 15px);
   }
 
@@ -240,7 +241,7 @@ a {
     div.projectHolder {
         float:left;
         width: 800px;
-        height: 75%;
+        height: 72%;
         margin-top: 250px;
         /* background-color: rgb(61, 61, 61); */
     }
@@ -262,6 +263,41 @@ a {
     }
 
     p.projectDescription {
+        top: 60px;
+        margin-left: 25px;
+        margin-right: 25px;
+        line-height: 1.75;
+    }
+}
+
+/* iPAD PRO RESIZING */
+
+@media only screen and (max-width: 1200px) and (min-width: 760px) and (min-height: 1300px) {
+    div.projectHolder {
+        float:left;
+        width: 800px;
+        height: 60%;
+        margin-top: 400px;
+        /* background-color: rgb(61, 61, 61); */
+    }
+
+    .quizScreenshot {
+        width: 500px;
+    }
+
+    .projectScrollHolder {
+        left: 680px;
+        top: 343%;
+        position: absolute;
+        margin-left: 0;
+    }
+
+    .scrollDownProject {
+        margin-left: 0px;
+        top: -30px;
+    }
+
+    p.projectDescription {
         top: 75px;
         margin-left: 25px;
         margin-right: 25px;
@@ -269,21 +305,41 @@ a {
     }
 }
 
+/* iPAD REGULAR RESIZING */ 
+
+@media only screen and (max-height: 1025px) and (min-height: 1000px) {
+    .bioHolder {
+        width: 700px !important;
+    }
+    .skillsHolder {
+        width: 700px !important;
+    }
+    .projectHolder {
+        width: 700px !important;
+    }
+
+    .projectScrollHolder {
+        left: 640px;
+        top: 343%;
+    }
+}
+
 @media only screen and (min-width: 1200px) {
     div.projectHolder {
         width: 1200px;
+        height: 80%;
+        margin-top: 200px;
     }
 
     .projectScrollHolder {
         left: 950px;
-        top: 345%;
-
+        top: 343%;
     }
 }
 
 
 /* Styles for extra small mobile screens */
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 380px) and (max-height: 670px) {
     .quizScreenshot {
         width: 225px;
         height: auto;
@@ -291,6 +347,7 @@ a {
 
     .projectHolder {
         height: 650px;
+        margin-top: 175px !important;
     }
 
     .scrollDownProject {
@@ -300,9 +357,61 @@ a {
 
     .projectDescription {
         top: 100px !important;
+        line-height: normal !important;
     }
 
     .scrollDown {
         bottom: 15px;
+    }
+
+    .buttonHolder3 {
+        top: 401%;
+    }
+}
+
+/* iPhone 6/7/8 PLUS */
+
+@media only screen and (max-height: 740px) and (min-height: 675px) {
+    .projectScrollHolder {
+        bottom: 69%;
+    }
+
+    .projectDescription {
+        line-height: normal !important;
+    }
+    
+    .buttonHolder3 {
+        margin-top: 20px;
+    }
+
+    .projectHolder {
+        height: 89%;
+        margin-top: 175px;
+    }
+}
+
+@media only screen and (max-height: 675px) {
+    .projectScrollHolder {
+        bottom: 80%;
+    }
+
+    .projectHolder {
+        height: 87%;
+    }
+
+    .githubLink {
+        top: 50px !important;
+    }
+
+    .appLink {
+        top: 50px !important;
+    }
+
+    .projectDescription {
+        top: 55px !important;
+    }
+
+    .projectHeading {
+        margin-top: 7px;
     }
 }
