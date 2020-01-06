@@ -49,12 +49,12 @@ export default class NavBar extends React.Component{
     render() {
 
         return (
-            <div className={styles.nav}>
-              <div className={styles.navHeader}>
-                <div className={styles.navTitle}>
+            <div className={styles.nav} role="navigation">
+              <div role="presentation" className={styles.navHeader}>
+                <div role="presentation" className={styles.navTitle}>
                 </div>
               </div>
-              <div className={styles.navBtn}>
+              <div role="presentation" className={styles.navBtn}>
                 <label for="navCheck">
                   <span></span>
                   <span></span>
@@ -62,7 +62,7 @@ export default class NavBar extends React.Component{
                 </label>
               </div>
 
-              <div className={styles.navLinks}>
+              <div role="navigation" className={styles.navLinks}>
                 <a href="#bio" target="_blank" className={styles.bioLink} id="bioLink">Bio</a>
                 <a href="#skills" target="_blank" className={styles.skillsLink} id="skillsLink">Skills</a>
                 <a href="#projects" target="_blank" className={styles.projectsLink} id="projectsLink">Projects</a>

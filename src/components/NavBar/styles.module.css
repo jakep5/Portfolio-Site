@@ -16,6 +16,8 @@ body {
   box-shadow: 0 10px 10px -2px rgba(0, 0, 0, 0.774);
 }
 
+
+/* Styles for nav bar brackets on hover */
 .nav > .navHeader {
   display: inline;
 }
@@ -52,7 +54,6 @@ body {
 .nav > #navCheck {
   display: none;
 }
-
 
 .nav a::before,
 .nav a::after {
@@ -96,58 +97,16 @@ body {
 	opacity: 1;
 }
 
+/**/
+
 a.bioLink, a.skillsLink, a.projectsLink, a.contactInfoLink {
   font-family: 'Cabin', Sans-Serif;
 }
 
-@media (max-width:600px) {
-  .nav > .navBtn {
-    display: inline-block;
-    position: absolute;
-    right: 0px;
-    top: 0px;
-  }
-  .nav > .navBtn > label {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    padding: 13px;
-  }
-  .nav > .navBtn > label:hover,.nav  #navCheck:checked ~ .navBtn > label {
-    background-color: rgba(0, 0, 0, 0.3);
-  }
-  .nav > .navBtn > label > span {
-    display: block;
-    width: 25px;
-    height: 10px;
-    border-top: 2px solid #eee;
-  }
-  .nav > .navLinks {
-    position: absolute;
-    display: block;
-    width: 100%;
-    background-color: #333;
-    height: 0px;
-    transition: all 0.3s ease-in;
-    overflow-y: hidden;
-    top: 50px;
-    left: 0px;
-  }
-  .nav > .navLinks > a {
-    display: block;
-    width: 100%;
-  }
-  .nav > #navCheck:not(:checked) ~ .navLinks {
-    height: 0px;
-  }
-  .nav > #navCheck:checked ~ .navLinks {
-    height: calc(100vh - 50px);
-    overflow-y: auto;
-  }
-}
+/* Remove nav bar for smaller screens */
 
 @media only screen and (max-width: 750px) {
-    .nav {
-        display: none !important;
-    }
+  .nav {
+    display: none !important;
+  }
 }

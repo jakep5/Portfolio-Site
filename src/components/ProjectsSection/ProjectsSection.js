@@ -13,7 +13,7 @@ export default class ProjectsSection extends Component {
         }
     }
     
-
+    /* jQuery for on-click scrolling of scroll down button */
     componentDidMount() {
         jQuery(document).ready(function($) {
             $("a#scrollProjects").on("click", function(e) {
@@ -24,9 +24,9 @@ export default class ProjectsSection extends Component {
             });
         });
     }
-
+    /**/
+    
     handleProjectChange = (e) => {
-
         if (this.state.currentProject == 2) {
             this.setState({
                 currentProject: 0,
@@ -45,13 +45,13 @@ export default class ProjectsSection extends Component {
 
         return (
             <div role="wrapper" className={styles.projectWrapper} id="projects">    
-                    <div role="bioDisplay" className={styles.projectHolder}>
+                    <div role="contentInfo" className={styles.projectHolder}>
                         <h1 className={styles.projectHeading}>
                             <u>PROJECTS</u>
                         </h1>
-                        <div className={styles.fadeProjects}>
+                        <div className={styles.fadeProjects} role="presentation">
                             <h2 className={styles.projectHeadingTwo}>{projectStore[currentProject].title}</h2>
-                            <div role="languageIcons" className="languageIcons">
+                            <div role="contentinfo" className="languageIcons">
                                 {projectStore[currentProject].languageIcons.map((icon) => {
                                     return (
                                         <img alt={icon.alt} className={icon.class} src={icon.src} />

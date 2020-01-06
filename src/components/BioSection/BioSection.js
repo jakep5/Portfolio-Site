@@ -18,8 +18,8 @@ export default class BioSection extends Component {
 
     render() {
         return (
-            <div role="wrapper" className={styles.bioWrapper} id="bio">    
-                    <div role="bioDisplay" className={styles.bioHolder}>
+            <div role="section" className={styles.bioWrapper} id="bio">    
+                    <div role="contentinfo" className={styles.bioHolder}>
                         <h1 className={styles.bioHeading}>
                             <u>BIO</u>
                         </h1>
@@ -37,11 +37,11 @@ export default class BioSection extends Component {
                             somewhat of an overthinker, so I have developed a habit of meditation and zoning out to music.  
                         </p>
                     </div>
-                    <div className={styles.pictureHolder}>
-                        <img className={styles.astroImage} src="https://myrealdomain.com/images/astronaut-waving.png"></img>
+                    <div className={styles.pictureHolder} role="presentation">
+                        <img className={styles.astroImage} alt="floating astronaut" src="https://myrealdomain.com/images/astronaut-waving.png"></img>
                     </div>
-                    <div role="buttonHolder3" className={styles.buttonHolder3}>
-                            <a href="#skills" className={styles.scrollDown} id="scrollBio" address="true"></a>
+                    <div role="presentation" className={styles.buttonHolder3}>
+                        <a href="#skills" role="button" className={styles.scrollDown} id="scrollBio" address="true"></a>
                     </div>
             </div>
         )

@@ -56,8 +56,8 @@ export default class MenuButtons extends Component {
                 <button onClick={(e) => this.openEmail(e)} name="email" type="button" id="email" className={styles.homepageButton}><FontAwesomeIcon icon={faEnvelopeOpenText} className={styles.faEnvelopeOpenText} /></button>
                 <button name="contactInfo" type="button" id="contactInfo" className={styles.homepageButtonContact}><FontAwesomeIcon icon={faAddressCard} className={styles.faIdCard} /></button>
                 <button onClick={(e) => this.openLinkedIn(e)} name="email" type="button" id="misc" className={styles.homepageButton}><FontAwesomeIcon icon={faLinkedin} className={styles.faIdCard} /></button>
-                <div role="buttonHolder3" className={styles.buttonHolder3}>
-                        <a href="#bio" className={styles.scrollDown} id="scrollMain" address="true"></a>
+                <div role="button" className={styles.buttonHolder3}>
+                        <a role="button" href="#bio" className={styles.scrollDown} id="scrollMain" address="true"></a>
                 </div>
             </>
         )

@@ -1,3 +1,4 @@
+/* Project store for use in project section */
 let projects = [
     {
         "title": "Craft Digest",
@@ -87,5 +88,6 @@ let projects = [
         ]
     },
 ]
+/**/
 
 module.exports = projects;

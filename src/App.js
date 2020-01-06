@@ -12,7 +12,7 @@ class App extends React.Component {
 
     return (
       <main className='App'>
-        <div className={styles.mainWrapper} role="presentation">
+        <div className={styles.mainWrapper} role="main">
 
           <section role="contentinfo" className={styles.titleSection} id="title">
             <TitleSection />

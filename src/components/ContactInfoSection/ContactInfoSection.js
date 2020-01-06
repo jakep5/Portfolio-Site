@@ -18,8 +18,8 @@ export default class ContactInfoSection extends Component {
     render() {
 
         return (
-            <div role="contactInfo" className={styles.contactInfoWrapper} id="contactInfo">
-                <div role="contactInfoHolder" id="contactInfoHolder" className={styles.contactInfoHolder}>
+            <div role="presentation" className={styles.contactInfoWrapper} id="contactInfo">
+                <div role="contentinfo" id="contactInfoHolder" className={styles.contactInfoHolder}>
                     <h1 className={styles.contactHeader}>
                         Contact me!
                     </h1>
@@ -32,11 +32,11 @@ export default class ContactInfoSection extends Component {
 
                     <p className={styles.contact}>linkedin: <a className={styles.contactInfoLink} href="https://www.linkedin.com/in/jake-pagel-38b243191/" target="_blank">/jake-pagel</a></p>
                 </div>
-                <div className={styles.pictureHolder}>
-                    <img src="https://cdn.clipart.email/44e4cc8daf6e7aab4d878a0510a5d8ef_astronaut-png-image-purepng-free-transparent-cc0-png-image-library_1888-2280.png" className={styles.contactAstro} />
+                <div role="presentation" className={styles.pictureHolder}>
+                    <img alt="floating astronaut" src="https://cdn.clipart.email/44e4cc8daf6e7aab4d878a0510a5d8ef_astronaut-png-image-purepng-free-transparent-cc0-png-image-library_1888-2280.png" className={styles.contactAstro} />
                 </div>
-                <div role="buttonHolder3" className={styles.buttonHolder3}>
-                        <a href="#title" className={styles.scrollDown} id="scrollTop" address="true"></a>
+                <div role="button" className={styles.buttonHolder3}>
+                        <a role="button" href="#title" className={styles.scrollDown} id="scrollTop" address="true"></a>
                 </div>
             </div>
         )

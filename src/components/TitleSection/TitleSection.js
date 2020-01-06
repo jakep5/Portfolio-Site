@@ -5,8 +5,6 @@ import styles from './styles.module.css'
 
 export default class TitleSection extends Component {
 
-    
-
     render() {
 
         return (
@@ -18,13 +16,11 @@ export default class TitleSection extends Component {
                 </section>
 
                 <section role="buttons">
-
-                    <div role={styles.buttonHolder}>
-                        
+                    <div role="menu">
                         <MenuButtons />
-
                     </div>
                 </section>
+
             </div>
         )
     }

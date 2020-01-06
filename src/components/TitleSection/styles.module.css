@@ -1,105 +1,111 @@
+/* Styles for title page typing animation */
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: grey; }
 }
 
 @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
+  from { width: 0 }
+  to { width: 100% }
 }
+/**/
 
+
+/* Styles for text fade-in animation */
 @keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
 
 /* Firefox < 16 */
 @-moz-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
 
 /* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
 
 /* Internet Explorer */
 @-ms-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
 
 /* Opera < 12.1 */
 @-o-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
+/**/
 
 div.main {
-    text-align: center;
-    display: inline-block;
-    margin-top: 120px;
+  text-align: center;
+  display: inline-block;
+  margin-top: 120px;
 }
 
 div.buttonHolder {
-    display: inline-block;
-    position: relative;
-    top: 40px;
-    width: 650px;
-    margin-top: 25px;
+  display: inline-block;
+  position: relative;
+  top: 40px;
+  width: 650px;
+  margin-top: 25px;
 }
 
 h1.name {
-    color: white;
-    font-size: 50px;
-    font-weight: 1000;
-    font-family: 'Roboto Condensed', Sans-Serif;
-    -webkit-animation: fadein 6s; 
-    -moz-animation: fadein 6s; 
-        -ms-animation: fadein 6s; 
-        -o-animation: fadein 6s; 
-            animation: fadein 6s;
-    margin-block-end: 20px;
+  color: white;
+  font-size: 50px;
+  font-weight: 1000;
+  font-family: 'Roboto Condensed', Sans-Serif;
+  -webkit-animation: fadein 6s; 
+  -moz-animation: fadein 6s; 
+      -ms-animation: fadein 6s; 
+      -o-animation: fadein 6s; 
+          animation: fadein 6s;
+  margin-block-end: 20px;
 }
 
 .intro {
-    font-family: 'Cabin', Sans-Serif;
-    color: white;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 50px;
-    -webkit-animation: fadein 6s; 
-    -moz-animation: fadein 6s; 
-        -ms-animation: fadein 6s; 
-        -o-animation: fadein 6s; 
-            animation: fadein 6s;
+  font-family: 'Cabin', Sans-Serif;
+  color: white;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 50px;
+  -webkit-animation: fadein 6s; 
+  -moz-animation: fadein 6s; 
+      -ms-animation: fadein 6s; 
+      -o-animation: fadein 6s; 
+          animation: fadein 6s;
 }
 
 @media only screen and (min-width: 760px) {
-    h1.name {
-        font-size: 85px;
-        font-weight: bolder;
-    }
-    p.intro {
-        font-family: 'Cabin', Sans-Serif;
-        color: white;
-        margin-left: 200px;
-        margin-right: 200px;
-        overflow: hidden; 
-        border-right: .15em solid grey; 
-        white-space: nowrap; 
-        margin: 0 auto; 
-        animation: 
-            typing 4.5s steps(40, end),
-            blink-caret .75s step-end infinite;
-    }
+  h1.name {
+    font-size: 85px;
+    font-weight: bolder;
+  }
+  
+  p.intro {
+    font-family: 'Cabin', Sans-Serif;
+    color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+    overflow: hidden; 
+    border-right: .15em solid grey; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    animation: 
+        typing 4.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+  }
 }
 
 /* Styles for extra small mobile screens */
 @media only screen and (max-width: 380px) {
-    .main {
-      margin-top: 60px !important;
-    }
+  .main {
+    margin-top: 60px !important;
+  }
 }
