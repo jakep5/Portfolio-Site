@@ -32,6 +32,9 @@ export default class ContactInfoSection extends Component {
 
                     <p className={styles.contact}>linkedin: <a className={styles.contactInfoLink} href="https://www.linkedin.com/in/jake-pagel-38b243191/" target="_blank">/jake-pagel</a></p>
                 </div>
+                <div className={styles.pictureHolder}>
+                    <img src="https://cdn.clipart.email/44e4cc8daf6e7aab4d878a0510a5d8ef_astronaut-png-image-purepng-free-transparent-cc0-png-image-library_1888-2280.png" className={styles.contactAstro} />
+                </div>
                 <div role="buttonHolder3" className={styles.buttonHolder3}>
                         <a href="#title" className={styles.scrollDown} id="scrollTop" address="true"></a>
                 </div>

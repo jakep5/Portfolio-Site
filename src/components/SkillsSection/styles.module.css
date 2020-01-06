@@ -82,7 +82,7 @@ div.skillsWrapper {
 }
 
 div.skillsHolder {
-    height: 550px;
+    height: 575px;
     width: 350px;
     background-color: rgb(29, 29, 29);
     -moz-box-shadow: 0 0 15px #ccc;
@@ -108,12 +108,16 @@ div.skillsHolder {
   margin-top: 20px;
 }
 
+.pictureHolder {
+  display: none;
+}
+
 
 @media only screen and (min-width: 760px) {
     div.skillsHolder {
         float:right;
         width: 900px;
-        height: 65%;
+        height: 625px;
         margin-top: 300px;
     }
 
@@ -127,7 +131,36 @@ div.skillsHolder {
         height: 150px;
         width: 330px;
     }
+
 }
+
+/* Styles for astronaut image */
+
+@media only screen and (min-width: 760px) and (max-width: 1200px) {
+  .pictureHolder {
+    display: none !important;
+  }
+}
+
+
+@media only screen and (min-width: 1200px) {
+  .pictureHolder {
+    display: block;
+    width: 100px;
+    height: 300px;
+    float: left;
+    margin-left: 125px;
+    margin-top: 350px;
+    transform: rotate(-20deg);
+  }
+
+  .skillsAstro {
+    width: 200px;
+    height: auto;
+  }
+}
+
+/*
 
 /* Styles for extra small mobile screens */
 @media only screen and (max-width: 380px) and (max-height: 670px) {

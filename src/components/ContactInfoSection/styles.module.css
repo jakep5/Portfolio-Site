@@ -97,6 +97,36 @@ p.contact {
   padding-left: 15px;
 }
 
+/* Styles for astronaut image */
+
+@media only screen and (max-width: 1200px) {
+  .pictureHolder {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .pictureHolder {
+    display: block;
+    float: left;
+    width: 250px;
+    height: auto;
+    margin-top: 500px;
+    margin-left: 120px;
+  }
+  .contactAstro {
+    width: 150px;
+    height: auto;
+  }
+
+  .contactInfoHolder{
+    position: relative;
+    right: 200px;
+  }
+}
+
+/**/
+
 @media only screen and (min-width: 760px) {
    div.contactInfoHolder {
        display: inline-block;

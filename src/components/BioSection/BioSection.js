@@ -37,6 +37,9 @@ export default class BioSection extends Component {
                             somewhat of an overthinker, so I have developed a habit of meditation and zoning out to music.  
                         </p>
                     </div>
+                    <div className={styles.pictureHolder}>
+                        <img className={styles.astroImage} src="https://myrealdomain.com/images/astronaut-waving.png"></img>
+                    </div>
                     <div role="buttonHolder3" className={styles.buttonHolder3}>
                             <a href="#skills" className={styles.scrollDown} id="scrollBio" address="true"></a>
                     </div>

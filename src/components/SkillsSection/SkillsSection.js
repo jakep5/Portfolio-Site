@@ -28,6 +28,9 @@ export default class SkillsSection extends Component {
                     <p className={styles.skillsText}>*10 corresponds to my highest level of mastery</p>
                     
                 </div>
+                <div className={styles.pictureHolder}>
+                  <img className={styles.skillsAstro} src="https://i.pinimg.com/originals/fe/2c/64/fe2c646744bf4b17d310aed8240aedb3.png"></img>
+                </div>
                 <div role="buttonHolder3" className={styles.buttonHolder3}>
                         <a href="#projects" className={styles.scrollDown} id="scrollSkills" address="true"></a>
                 </div>

@@ -109,6 +109,10 @@
   line-height: 22px;
 }
 
+.pictureHolder {
+  display: none;
+}
+
 @media only screen and (min-width: 760px) {
     p.bio {
         line-height: 2.1;
@@ -133,12 +137,43 @@
     h1.bioHeading {
       font-size: 40px;
     }
+
+    
 }
+
+/* Styles for astronaut image */
+
+@media only screen and (min-width: 760px) and (max-width: 1200px) {
+  .pictureHolder {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .pictureHolder {
+    display: block;
+    float: right;
+    margin-right: 150px;
+    margin-top: 25%;
+    transform: rotate(45deg);
+  }
+
+  .astroImage {
+    width: 175px;
+    height: auto;
+  }
+}
+
+/*
 
 
 /* Styles for extra small mobile screens */
 @media only screen and (max-width: 380px) {
   .bioHolder {
     margin-top: 200px !important;
+  }
+
+  .pictureHolder {
+    display: none !important;
   }
 }
