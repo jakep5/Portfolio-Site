@@ -109,3 +109,21 @@ h1.name {
     margin-top: 60px !important;
   }
 }
+
+/**/
+
+/* iPad Styles */
+
+@media only screen and (device-width: 768px) and (device-height: 1024px) {
+  div.main {
+    margin-top: 250px;
+  }
+}
+
+@media only screen and (device-width: 1024px) and (device-height: 1366px) {
+  div.main {
+    margin-top: 350px;
+  }
+}
+
+/**/

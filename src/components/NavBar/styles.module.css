@@ -10,9 +10,9 @@ body {
   height: 50px;
   width: 50%;
   background-color: black;
-  position: relative;
+  position: absolute;
   left: 25%;
-  top: 200px;
+  top: 0;
   box-shadow: 0 10px 10px -2px rgba(0, 0, 0, 0.774);
 }
 
@@ -110,3 +110,48 @@ a.bioLink, a.skillsLink, a.projectsLink, a.contactInfoLink {
     display: none !important;
   }
 }
+
+/**/ 
+
+/* iPad Styles */
+
+@media only screen and (device-width: 768px) and (device-height: 1024px) {
+  div.nav {
+    height: 60px;
+    width: 55%;
+    left: calc(50% - 27.5%);
+  }
+
+
+  a {
+    font-size: 21px;
+  }
+
+  a::after {
+    display: none !important;
+  }
+
+  a::before {
+    display: none !important;
+  }
+}
+
+@media only screen and (device-width: 1024px) and (device-height: 1366px) {
+  div.nav {
+    height: 60px;
+  }
+  
+  a {
+    font-size: 22px;
+  }
+
+  a::after {
+    display: none !important;
+  }
+  
+  a::before {
+    display: none !important;
+  }
+}
+
+/**/ 

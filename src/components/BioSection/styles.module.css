@@ -115,23 +115,25 @@
 
 @media only screen and (min-width: 760px) {
     p.bio {
-        line-height: 2.1;
+        line-height: 1.7;
         margin-left: 40px;
         margin-right: 40px;
+        font-size: 2.4vh;
     }
 
     p.bioTwo {
-      line-height: 2.1;
+      line-height: 1.7;
       margin-left: 40px;
       margin-right: 40px;
       margin-top: 40px;
+      font-size: 2.4vh;
     }
 
     div.bioHolder {
         float: left;
         width: 800px;
-        height: 60%;
-        margin-top: 300px;
+        height: 70%;
+        margin-top: 17%;
     }
 
     h1.bioHeading {
@@ -154,7 +156,7 @@
     display: block;
     float: right;
     margin-right: 150px;
-    margin-top: 25%;
+    margin-top: 50vh;
     transform: rotate(45deg);
   }
 
@@ -177,3 +179,33 @@
     display: none !important;
   }
 }
+/**/
+
+/* iPad Styles */
+
+@media only screen and (device-width: 768px) and (device-height: 1024px) {
+  div.bioHolder {
+    margin-top: 30%;
+    width: 700px;
+  }
+
+  p.bio {
+    font-size: 22px;
+  }
+
+  p.bioTwo {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (device-width: 1024px) and (device-height: 1366px) {
+  div.bioHolder {
+    margin-top: 30%;
+  }
+
+  p.bio, p.bioTwo {
+    font-size: 26px;
+  }
+}
+
+/**/
