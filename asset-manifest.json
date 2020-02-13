@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/jakep5/Portfolio-site-react/static/css/main.ea0d8a82.chunk.css",
+    "main.js": "/jakep5/Portfolio-site-react/static/js/main.9fc8cefc.chunk.js",
+    "main.js.map": "/jakep5/Portfolio-site-react/static/js/main.9fc8cefc.chunk.js.map",
+    "runtime-main.js": "/jakep5/Portfolio-site-react/static/js/runtime-main.8ec004e3.js",
+    "runtime-main.js.map": "/jakep5/Portfolio-site-react/static/js/runtime-main.8ec004e3.js.map",
+    "static/js/2.c3a71090.chunk.js": "/jakep5/Portfolio-site-react/static/js/2.c3a71090.chunk.js",
+    "static/js/2.c3a71090.chunk.js.map": "/jakep5/Portfolio-site-react/static/js/2.c3a71090.chunk.js.map",
+    "index.html": "/jakep5/Portfolio-site-react/index.html",
+    "precache-manifest.e952ab96f4962e5887d07fc8082a0496.js": "/jakep5/Portfolio-site-react/precache-manifest.e952ab96f4962e5887d07fc8082a0496.js",
+    "service-worker.js": "/jakep5/Portfolio-site-react/service-worker.js",
+    "static/css/main.ea0d8a82.chunk.css.map": "/jakep5/Portfolio-site-react/static/css/main.ea0d8a82.chunk.css.map",
+    "static/js/2.c3a71090.chunk.js.LICENSE": "/jakep5/Portfolio-site-react/static/js/2.c3a71090.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8ec004e3.js",
+    "static/js/2.c3a71090.chunk.js",
+    "static/css/main.ea0d8a82.chunk.css",
+    "static/js/main.9fc8cefc.chunk.js"
+  ]
+}
