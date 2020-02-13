@@ -6,33 +6,33 @@ import SkillsSection from './components/SkillsSection/SkillsSection'
 import ProjectsSection from './components/ProjectsSection/ProjectsSection'
 import ContactInfoSection from './components/ContactInfoSection/ContactInfoSection'
 import NavBar from './components/NavBar/NavBar'
+
 class App extends React.Component {
 
   render() {
 
     return (
-      <main className='App'>
-        <div className={styles.mainWrapper} role="main">
+        <main className='App'>
+            <div className={styles.mainWrapper} role="main">
+                <section role="contentinfo" className={styles.titleSection} id="title">
+                    <TitleSection />
+                    <NavBar />
+                </section>
 
-          <section role="contentinfo" className={styles.titleSection} id="title">
-            <TitleSection />
-            <NavBar />
-          </section>
-
-          <section role="contentinfo" className={styles.bioSection}>
-            <BioSection />
-          </section>
-          <section role="contentinfo" className={styles.skillsSection}>
-            <SkillsSection />
-          </section>
-          <section role="contentinfo" className={styles.projectsSection}>
-            <ProjectsSection />
-          </section>
-          <section role="contentinfo" className={styles.contactSection}>
-            <ContactInfoSection />
-          </section>
-        </div>
-      </main>
+                <section role="contentinfo" className={styles.bioSection}>
+                    <BioSection />
+                </section>
+                <section role="contentinfo" className={styles.skillsSection}>
+                    <SkillsSection />
+                </section>
+                <section role="contentinfo" className={styles.projectsSection}>
+                    <ProjectsSection />
+                </section>
+                <section role="contentinfo" className={styles.contactSection}>
+                    <ContactInfoSection />
+                </section>
+            </div>
+        </main>
     );
   }
 }

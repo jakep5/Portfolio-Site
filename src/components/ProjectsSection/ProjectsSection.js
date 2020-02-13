@@ -27,7 +27,7 @@ export default class ProjectsSection extends Component {
     /**/
     
     handleProjectChange = (e) => {
-        if (this.state.currentProject == 2) {
+        if (this.state.currentProject === 2) {
             this.setState({
                 currentProject: 0,
             })
@@ -44,8 +44,8 @@ export default class ProjectsSection extends Component {
         let currentProject = this.state.currentProject;
 
         return (
-            <div role="wrapper" className={styles.projectWrapper} id="projects">    
-                    <div role="contentInfo" className={styles.projectHolder}>
+            <div role="presentation" className={styles.projectWrapper} id="projects">    
+                    <div role="contentinfo" className={styles.projectHolder}>
                         <h1 className={styles.projectHeading}>
                             <u>PROJECTS</u>
                         </h1>
@@ -54,12 +54,12 @@ export default class ProjectsSection extends Component {
                             <div role="contentinfo" className="languageIcons">
                                 {projectStore[currentProject].languageIcons.map((icon) => {
                                     return (
-                                        <img alt={icon.alt} className={icon.class} src={icon.src} />
+                                        <img alt={icon.alt} key={icon.alt} className={icon.class} src={icon.src} />
                                     )
                                 })}
                             </div> 
 
-                            <div role="projectScreenshot" class="projectScreenshot">
+                            <div role="contentinfo" className="projectScreenshot">
                                 <img alt="quiz app screenshot" className={styles.quizScreenshot} src={projectStore[currentProject].screenshot} />
                             </div>
                             <a href={projectStore[currentProject].applink} className="appLink">Live Application</a>
@@ -74,8 +74,8 @@ export default class ProjectsSection extends Component {
                     <div className={styles.projectScrollHolder}>
                         <a className={styles.scrollDownProject} id="projectScroll" onClick={(e) => this.handleProjectChange(e)} address="true"></a>
                     </div>
-                    <div role="buttonHolder3" className={styles.buttonHolder3}>
-                            <a href="#contactInfoHolder" className={styles.scrollDown} id="scrollProjects" address="true"></a>
+                    <div role="button" className={styles.buttonHolder3}>
+                        <a href="#contactInfoHolder" className={styles.scrollDown} id="scrollProjects" address="true"></a>
                     </div>
             </div>
         )

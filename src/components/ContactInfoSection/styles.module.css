@@ -73,7 +73,7 @@ div.contactInfoHolder {
     height:500px;
     width:350px;
     display: inline-block;
-    margin-top: 125px;
+    margin-top: 15vh;
     background-color: rgb(29, 29, 29);
     -moz-box-shadow: 0 0 15px #ccc;
     -webkit-box-shadow: 0 0 15px #ccc;
@@ -84,8 +84,8 @@ div.contactInfoHolder {
 p.contact {
     font-family: 'Source Sans Pro', sans-serif;
     color: white;
-    font-size: 22px;
-    margin-top: 50px;
+    font-size: 2.5vh;
+    margin-top: 5vh;
 }
 
 .contactHeader {
@@ -111,8 +111,8 @@ p.contact {
     float: left;
     width: 250px;
     height: auto;
-    margin-top: 500px;
-    margin-left: 120px;
+    margin-top: 40vh;
+    margin-left: 50px;
   }
   .contactAstro {
     width: 150px;
@@ -121,7 +121,7 @@ p.contact {
 
   .contactInfoHolder{
     position: relative;
-    right: 200px;
+    right: 150px;
   }
 }
 

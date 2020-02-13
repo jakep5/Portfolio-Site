@@ -6,19 +6,19 @@ export default class BioSection extends Component {
 
     componentDidMount() {
         jQuery(document).ready(function($) {
-          $("a#scrollBio").on("click", function(e) {
-            e.preventDefault();
-            $("body, html").animate({ 
-              scrollTop: $( $(this).attr('href') ).offset().top 
-            }, 600);
-          });
+            $("a#scrollBio").on("click", function(e) {
+                e.preventDefault();
+                $("body, html").animate({ 
+                    scrollTop: $( $(this).attr('href') ).offset().top 
+                }, 600);
+            });
         });
     }
 
 
     render() {
         return (
-            <div role="section" className={styles.bioWrapper} id="bio">    
+            <div role="presentation" className={styles.bioWrapper} id="bio">    
                     <div role="contentinfo" className={styles.bioHolder}>
                         <h1 className={styles.bioHeading}>
                             <u>BIO</u>

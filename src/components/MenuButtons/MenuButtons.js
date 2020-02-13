@@ -16,7 +16,7 @@ export default class MenuButtons extends Component {
             $("a#scrollMain").on("click", function(e) {
                 e.preventDefault();
                 $("body, html").animate({ 
-                scrollTop: $( $(this).attr('href') ).offset().top 
+                    scrollTop: $( $(this).attr('href') ).offset().top 
                 }, 600);
             });
         });
@@ -24,7 +24,7 @@ export default class MenuButtons extends Component {
             $("button#contactInfo").on("click", function(e) {
                 e.preventDefault();
                 $("body, html").animate({ 
-                scrollTop: $('#contactInfoHolder').offset().top 
+                    scrollTop: $('#contactInfoHolder').offset().top 
                 }, 600);
             });
         });
@@ -45,8 +45,6 @@ export default class MenuButtons extends Component {
         window.open('mailto:jakepagel1@yahoo.com', '_blank');
     }
 
-    
-
     render() {
 
         return (
@@ -57,7 +55,7 @@ export default class MenuButtons extends Component {
                 <button name="contactInfo" type="button" id="contactInfo" className={styles.homepageButtonContact}><FontAwesomeIcon icon={faAddressCard} className={styles.faIdCard} /></button>
                 <button onClick={(e) => this.openLinkedIn(e)} name="email" type="button" id="misc" className={styles.homepageButton}><FontAwesomeIcon icon={faLinkedin} className={styles.faIdCard} /></button>
                 <div role="button" className={styles.buttonHolder3}>
-                        <a role="button" href="#bio" className={styles.scrollDown} id="scrollMain" address="true"></a>
+                    <a role="button" href="#bio" className={styles.scrollDown} id="scrollMain" address="true"></a>
                 </div>
             </>
         )

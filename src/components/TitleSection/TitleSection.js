@@ -15,12 +15,11 @@ export default class TitleSection extends Component {
                     <p className={styles.intro}>I'm a fullstack developer living in Milwaukee, Wisconsin with a passion for front-end development</p>
                 </section>
 
-                <section role="buttons">
-                    <div role="menu">
+                <section role="navigation">
+                    <div role="navigation">
                         <MenuButtons />
                     </div>
                 </section>
-
             </div>
         )
     }
