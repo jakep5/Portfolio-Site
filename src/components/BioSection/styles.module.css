@@ -21,20 +21,20 @@
 }
 
 .bioWrapper {
-    height: 100%;
-    width: 100%;
-    background-image: url("https://images.wallpaperscraft.com/image/starry_sky_galaxy_universe_sky_night_118591_1920x1080.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
+  height: 100%;
+  width: 100%;
+  background-image: url("https://images.wallpaperscraft.com/image/starry_sky_galaxy_universe_sky_night_118591_1920x1080.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
 }
 
 .buttonHolder3 {
-    position: absolute;
-    top: 200%;
-    left: 50%; 
+  position: absolute;
+  top: 200%;
+  left: 50%; 
 }
 
 .bioHolder {
@@ -53,53 +53,43 @@
 }
 
 .scrollDown {
-    position: absolute;
-    bottom: 30px;
-    left: 50%;
-    margin-left: -16px;
-    display: block;
-    width: 32px;
-    height: 32px;
-    border: 2px solid #FFF;
-    background-size: 14px auto;
-    border-radius: 50%;
-    z-index: 2;
-    -webkit-animation: bounce 2s infinite 2s;
-    animation: bounce 2s infinite 2s;
-    -webkit-transition: all .2s ease-in;
-    transition: all .2s ease-in;
-    transform: scale(1)
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -16px;
+  display: block;
+  width: 32px;
+  height: 32px;
+  border: 2px solid #FFF;
+  background-size: 14px auto;
+  border-radius: 50%;
+  z-index: 2;
+  -webkit-animation: bounce 2s infinite 2s;
+  animation: bounce 2s infinite 2s;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+  transform: scale(1)
   }
 
 .scrollDown:before {
-    position: absolute;
-    top: calc(50% - 8px);
-    left: calc(50% - 6.75px);
-    transform: rotate(-45deg);
-    display: block;
-    width: 12px;
-    height: 12px;
-    content: "";
-    border: 2px solid white;
-    border-width: 0px 0 2px 2px;
+  position: absolute;
+  top: calc(50% - 8px);
+  left: calc(50% - 6.75px);
+  transform: rotate(-45deg);
+  display: block;
+  width: 12px;
+  height: 12px;
+  content: "";
+  border: 2px solid white;
+  border-width: 0px 0 2px 2px;
 }
 
 .bioHeading {
-    font-family: 'Roboto Condensed', Sans-Serif;
-    color: white;
+  font-family: 'Roboto Condensed', Sans-Serif;
+  color: white;
 }
 
 .bio {
-    font-family: 'Cabin', Sans-Serif;
-    color: white;
-    size: 14px;
-    margin-left: 8px;
-    margin-right: 8px;
-    text-align: left;
-    line-height: 22px;
-}
-
-.bioTwo {
   font-family: 'Cabin', Sans-Serif;
   color: white;
   size: 14px;
@@ -109,36 +99,46 @@
   line-height: 22px;
 }
 
+.bioTwo {
+font-family: 'Cabin', Sans-Serif;
+color: white;
+size: 14px;
+margin-left: 8px;
+margin-right: 8px;
+text-align: left;
+line-height: 22px;
+}
+
 .pictureHolder {
   display: none;
 }
 
 @media only screen and (min-width: 760px) {
-    p.bio {
-        line-height: 1.7;
-        margin-left: 40px;
-        margin-right: 40px;
-        font-size: 2.4vh;
-    }
+  p.bio {
+    line-height: 1.7;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 2.4vh;
+  }
 
-    p.bioTwo {
-      line-height: 1.7;
-      margin-left: 40px;
-      margin-right: 40px;
-      margin-top: 40px;
-      font-size: 2.4vh;
-    }
+  p.bioTwo {
+    line-height: 1.7;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    font-size: 2.4vh;
+  }
 
-    div.bioHolder {
-        float: left;
-        width: 800px;
-        height: 70%;
-        margin-top: 33vh;
-    }
+  div.bioHolder {
+    float: left;
+    width: 800px;
+    height: 70%;
+    margin-top: 33vh;
+  }
 
-    h1.bioHeading {
-      font-size: 40px;
-    }
+  h1.bioHeading {
+    font-size: 40px;
+  }
 
     
 }

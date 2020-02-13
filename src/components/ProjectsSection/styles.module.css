@@ -201,9 +201,9 @@ p.projectDescription {
 }
 
 .projectScrollHolder {
-    position: relative;
-    top: -67%;
-    margin-left: calc(50% - 15px);
+  position: relative;
+  top: -67%;
+  margin-left: calc(50% - 15px);
 }
 
 .scrollDown:before {
@@ -239,44 +239,44 @@ a {
 
 @media only screen and (min-height: 820px) and (max-width: 760px) {
   .projectScrollHolder {
-      bottom: 61%;
+    bottom: 61%;
   }
 
   .projectHolder {
-      height: 76%;
+    height: 76%;
   }
 }
 
 @media only screen and (min-width: 760px) {
   div.projectHolder {
-      float:left;
-      width: 800px;
-      height: 70%;
-      margin-top: 12vh;
+    float:left;
+    width: 800px;
+    height: 70%;
+    margin-top: 12vh;
   }
 
   .quizScreenshot {
-      width: 35vh;
+    width: 35vh;
   }
 
   .projectScrollHolder {
-      left: 680px;
-      top: 347%;
-      position: absolute;
-      margin-left: 0;
+    left: 680px;
+    top: 347%;
+    position: absolute;
+    margin-left: 0;
   }
 
   .scrollDownProject {
-      margin-left: 0px;
-      top: -30px;
+    margin-left: 0px;
+    top: -30px;
   }
 
   p.projectDescription {
-      top: 20px;
-      margin-left: 25px;
-      margin-right: 25px;
-      line-height: 1.75;
-      font-size: 2vh;
+    top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    line-height: 1.75;
+    font-size: 2vh;
   }
 }
 
@@ -292,26 +292,26 @@ a {
   }
 
   .quizScreenshot {
-      width: 500px;
+    width: 500px;
   }
 
   .projectScrollHolder {
-      left: 680px;
-      top: 343%;
-      position: absolute;
-      margin-left: 0;
+    left: 680px;
+    top: 343%;
+    position: absolute;
+    margin-left: 0;
   }
 
   .scrollDownProject {
-      margin-left: 0px;
-      top: -30px;
+    margin-left: 0px;
+    top: -30px;
   }
 
   p.projectDescription {
-      top: 75px;
-      margin-left: 25px;
-      margin-right: 25px;
-      line-height: 1.75;
+    top: 75px;
+    margin-left: 25px;
+    margin-right: 25px;
+    line-height: 1.75;
   }
 }
 
@@ -369,45 +369,54 @@ a {
 /* iPhone 6/7/8 PLUS */
 
 @media only screen and (max-height: 740px) and (min-height: 675px) {
-    .projectScrollHolder {
-        bottom: 69%;
-    }
+  .projectScrollHolder {
+    bottom: 69%;
+  }
 
-    .projectDescription {
-        line-height: normal !important;
-    }
-    
-    .buttonHolder3 {
-        margin-top: 20px;
-    }
+  .projectDescription {
+    line-height: normal !important;
+  }
+  
+  .buttonHolder3 {
+    margin-top: 20px;
+  }
 
-    .projectHolder {
-        height: 89%;
-        margin-top: 175px;
-    }
+  .projectHolder {
+    height: 89%;
+    margin-top: 175px;
+  }
+}
+/**/ 
+
+/* iPhone X */
+
+@media only screen and (device-width: 375px) and (device-height: 812px) {
+  a.scrollDownProject {
+    top: 7px;
+  }
 }
 
 @media only screen and (max-height: 675px) {
 
-    .projectHolder {
-        height: 87%;
-    }
+  .projectHolder {
+    height: 87%;
+  }
 
-    .githubLink {
-        top: 50px !important;
-    }
+  .githubLink {
+    top: 50px !important;
+  }
 
-    .appLink {
-        top: 50px !important;
-    }
+  .appLink {
+    top: 50px !important;
+  }
 
-    .projectDescription {
-        top: 55px !important;
-    }
+  .projectDescription {
+    top: 55px !important;
+  }
 
-    .projectHeading {
-        margin-top: 7px;
-    }
+  .projectHeading {
+    margin-top: 7px;
+  }
 }
 
 /**/
@@ -415,11 +424,20 @@ a {
 /* iPad Styles */
 
 @media only screen and (device-width: 1024px) and (device-height: 1366px) {
-    
+  div.projectHolder {
+    margin-top: 30%;
+    height: 72%;
+  }
+
+  a.scrollDownProject {
+    top: -120px;
+  }
 }
   
-  @media only screen and (device-width: 768px) and (device-height: 1024px) {
-    
+@media only screen and (device-width: 768px) and (device-height: 1024px) {
+  div.projectHolder {
+    margin-top: 35%;
+  }
 }
 
 /**/
