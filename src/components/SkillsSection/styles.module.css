@@ -133,6 +133,14 @@ div.skillsHolder {
   }
 }
 
+@media only screen and (min-width: 1920px) {
+  .img1, .img2, .img3 {
+    height: 200px;
+    width: 400px;
+    margin-left: calc(50% - 200px);
+  }
+}
+
 /* Styles for astronaut image */
 
 @media only screen and (min-width: 760px) and (max-width: 1200px) {
