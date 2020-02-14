@@ -128,10 +128,16 @@
   margin-bottom: 4px;
 }
 
-.faIdCard {
+.faIdCard, .faLinkedIn {
   color: black;
   margin-top: 4px;
-  margin-right: 1px;
+  margin-right: 3px;
+  position: relative;
+  right: 2px;
+}
+
+.faLinkedIn {
+  right: -1px !important;
 }
 
 .scrollDown {

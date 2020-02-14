@@ -1,5 +1,4 @@
 {
-  "homepage": "http://jakep5.github.io/Portfolio-site",
   "name": "portfolio-site-react",
   "version": "0.1.0",
   "private": true,
@@ -24,7 +23,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "now --prod ./build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -55,6 +54,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jakep5/Portfolio-site-react/issues"
-  },
-  "homepage": "https://github.com/jakep5/Portfolio-site-react#readme"
+  }
 }
