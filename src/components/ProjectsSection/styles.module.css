@@ -441,3 +441,11 @@ a {
 }
 
 /**/
+
+/* Large Screen Styles */
+
+@media only screen and (min-width: 1920px) {
+  div.projectScrollHolder {
+    top: 334%;
+  }
+}
