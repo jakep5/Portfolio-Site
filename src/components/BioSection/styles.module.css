@@ -44,7 +44,7 @@
   -moz-box-shadow: 0 0 15px #ccc;
   -webkit-box-shadow: 0 0 15px #ccc;
   box-shadow: 0 0 15px;
-  margin-top: 225px;
+  margin-top: 200px;
   margin-bottom:0;
   text-align: center;
   position: relative;
@@ -166,20 +166,13 @@ line-height: 22px;
   }
 }
 
-/*
+/**/
 
-
-/* Styles for extra small mobile screens */
-@media only screen and (max-width: 380px) {
-  .bioHolder {
-    margin-top: 200px !important;
-  }
-
-  .pictureHolder {
-    display: none !important;
+@media only screen and (min-width: 350px) {
+  div.bioHolder {
+    margin-top:225px;
   }
 }
-/**/
 
 /* iPad Styles */
 
