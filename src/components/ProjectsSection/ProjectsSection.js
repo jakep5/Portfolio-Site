@@ -75,7 +75,7 @@ export default class ProjectsSection extends Component {
                         <a className={styles.scrollDownProject} id="projectScroll" onClick={(e) => this.handleProjectChange(e)} address="true"></a>
                     </div>
                     <div role="button" className={styles.buttonHolder3}>
-                        <a href="#contactInfoHolder" className={styles.scrollDown} id="scrollProjects" address="true"></a>
+                        <a href="#contactInfoHolder" aria-label="Scroll down" className={styles.scrollDown} id="scrollProjects" address="true"></a>
                     </div>
             </div>
         )

@@ -34,7 +34,7 @@ export default class SkillsSection extends Component {
                     <img alt="floating astronaut" className={styles.skillsAstro} src="https://i.pinimg.com/originals/fe/2c/64/fe2c646744bf4b17d310aed8240aedb3.png"></img>
                 </div>
                 <div role="button" className={styles.buttonHolder3}>
-                    <a href="#projects" className={styles.scrollDown} id="scrollSkills" address="true"></a>
+                    <a href="#projects" aria-label="Scroll down" className={styles.scrollDown} id="scrollSkills" address="true"></a>
                 </div>
             </div>
         )

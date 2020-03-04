@@ -41,7 +41,7 @@ export default class BioSection extends Component {
                         <img className={styles.astroImage} alt="floating astronaut" src="https://beneration.com/coveragespace/wp-content/uploads/2017/11/waving-astronaut-e1514942512563.png"></img>
                     </div>
                     <div role="presentation" className={styles.buttonHolder3}>
-                        <a href="#skills" role="button" className={styles.scrollDown} id="scrollBio" address="true"></a>
+                        <a href="#skills" role="button" aria-label="Scroll down" className={styles.scrollDown} id="scrollBio" address="true"></a>
                     </div>
             </div>
         )
