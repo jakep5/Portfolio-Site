@@ -50,11 +50,9 @@ export default class NavBar extends React.Component{
                     <div role="presentation" className={styles.navTitle}></div>
                 </div>
                 <div role="presentation" className={styles.navBtn}>
-                    <label htmlFor="navCheck">
                     <span></span>
                     <span></span>
                     <span></span>
-                    </label>
                 </div>
                 <div role="navigation" className={styles.navLinks}>
                     <a href="#bio" target="_blank" className={styles.bioLink} id="bioLink">Bio</a>
