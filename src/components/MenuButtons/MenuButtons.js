@@ -50,10 +50,10 @@ export default class MenuButtons extends Component {
         return (
 
             <>
-                <button onClick={(e) => this.openGitHub(e)} name="gitHub" type="button" id="github" className={styles.homepageButton}><FontAwesomeIcon icon={faGithubSquare} className={styles.faGithub} /></button>
-                <button onClick={(e) => this.openEmail(e)} name="email" type="button" id="email" className={styles.homepageButton}><FontAwesomeIcon icon={faEnvelopeOpenText} className={styles.faEnvelopeOpenText} /></button>
-                <button name="contactInfo" type="button" id="contactInfo" className={styles.homepageButtonContact}><FontAwesomeIcon icon={faAddressCard} className={styles.faIdCard} /></button>
-                <button onClick={(e) => this.openLinkedIn(e)} name="email" type="button" id="misc" className={styles.homepageButton}><FontAwesomeIcon icon={faLinkedin} className={styles.faLinkedIn} /></button>
+                <button onClick={(e) => this.openGitHub(e)} role="button" aria-label="GitHub" name="gitHub" type="button" id="github" className={styles.homepageButton}><FontAwesomeIcon icon={faGithubSquare} className={styles.faGithub} /></button>
+                <button onClick={(e) => this.openEmail(e)} role="button" aria-label="Email" name="email" type="button" id="email" className={styles.homepageButton}><FontAwesomeIcon icon={faEnvelopeOpenText} className={styles.faEnvelopeOpenText} /></button>
+                <button name="contactInfo" role="button" aria-label="Contact info" type="button" id="contactInfo" className={styles.homepageButtonContact}><FontAwesomeIcon icon={faAddressCard} className={styles.faIdCard} /></button>
+                <button onClick={(e) => this.openLinkedIn(e)} role="button" aria-label="LinkedIn" name="LinkedIn" type="button" id="misc" className={styles.homepageButton}><FontAwesomeIcon icon={faLinkedin} className={styles.faLinkedIn} /></button>
                 <div role="button" className={styles.buttonHolder3}>
                     <a role="button" href="#bio" className={styles.scrollDown} id="scrollMain" address="true"></a>
                 </div>

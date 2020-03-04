@@ -122,6 +122,24 @@ p.contact {
   .contactInfoHolder{
     position: relative;
     right: 150px;
+    margin-top: 150px !important;
+  }
+}
+
+@media only screen and (min-width: 1350px) and (max-width: 1717px) {
+  div.pictureHolder {
+    margin-top: -100px;
+  }
+
+  div.contactInfoHolder {
+    position: relative;
+    right: 27%;
+  }
+}
+
+@media only screen and (min-width: 1717px) {
+  div.pictureHolder {
+    margin-top: 40vh;
   }
 }
 

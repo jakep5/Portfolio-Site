@@ -62,9 +62,9 @@ export default class ProjectsSection extends Component {
                             <div role="contentinfo" className="projectScreenshot">
                                 <img alt="quiz app screenshot" className={styles.quizScreenshot} src={projectStore[currentProject].screenshot} />
                             </div>
-                            <a href={projectStore[currentProject].applink} className="appLink">Live Application</a>
+                            <a href={projectStore[currentProject].applink} target="_blank" className="appLink">Live Application</a>
 
-                            <a href={projectStore[currentProject].githublink} className="githubLink">GitHub Repository</a>
+                            <a href={projectStore[currentProject].githublink} target="_blank" className="githubLink">GitHub Repository</a>
 
                             <p className={styles.projectDescription}>
                                 {projectStore[currentProject].description}
