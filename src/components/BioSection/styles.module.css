@@ -39,12 +39,12 @@
 
 .bioHolder {
   height:500px;
-  width: 350px;
+  width: 300px;
   background-color: rgb(29, 29, 29);
   -moz-box-shadow: 0 0 15px #ccc;
   -webkit-box-shadow: 0 0 15px #ccc;
   box-shadow: 0 0 15px;
-  margin-top: 250px;
+  margin-top: 225px;
   margin-bottom:0;
   text-align: center;
   position: relative;
@@ -92,7 +92,7 @@
 .bio {
   font-family: 'Cabin', Sans-Serif;
   color: white;
-  size: 14px;
+  font-size: 12px;
   margin-left: 8px;
   margin-right: 8px;
   text-align: left;
@@ -102,7 +102,7 @@
 .bioTwo {
 font-family: 'Cabin', Sans-Serif;
 color: white;
-size: 14px;
+font-size: 12px;
 margin-left: 8px;
 margin-right: 8px;
 text-align: left;

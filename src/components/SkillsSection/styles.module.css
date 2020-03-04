@@ -60,7 +60,7 @@
 
 .buttonHolder3 {
   position: absolute;
-  top: 300%;
+  top: 303%;
   left: 50%; 
 }
 
@@ -82,13 +82,13 @@ div.skillsWrapper {
 }
 
 div.skillsHolder {
-  height: 575px;
-  width: 350px;
+  height: 550px;
+  width: 300px;
   background-color: rgb(29, 29, 29);
   -moz-box-shadow: 0 0 15px #ccc;
   -webkit-box-shadow: 0 0 15px #ccc;
   box-shadow: 0 0 15px;
-  margin-top: 200px;
+  margin-top: 155px;
   margin-bottom:50px;
   text-align: center;
   position: relative;
@@ -98,9 +98,9 @@ div.skillsHolder {
 
 .img1, .img2, .img3 {
   display: block;
-  margin-left: 10px;
-  height: 150px;
-  width: 330px;
+  margin-left: 12px;
+  height: 125px;
+  width: 275px;
 }
 
 .skillsText {
@@ -169,23 +169,13 @@ div.skillsHolder {
 
 /*
 
-/* Styles for extra small mobile screens */
-@media only screen and (max-width: 380px) and (max-height: 670px) {
-  .skillsHolder {
-    height: 575px !important;
-    margin-top: 175px !important;
-  }
-
-  .buttonHolder3 {
-    top: 302%;
-  }
-}
-
 /* iPhone 6/7/8 PLUS */
 
-@media only screen and (max-height: 740px) and (min-height: 675px) and (max-width: 450px) {
+
+@media only screen and (min-width: 325px) and (max-width: 450px) {
   .skillsHolder {
     height: 585px !important;
+    margin-top: 185px !important;
   }
 }
 

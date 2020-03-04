@@ -70,10 +70,10 @@ div.contactInfoWrapper {
 }
 
 div.contactInfoHolder {
-  height:500px;
-  width:350px;
+  height:400px;
+  width:300px;
   display: inline-block;
-  margin-top: 7vh;
+  margin-top: 40px;
   background-color: rgb(29, 29, 29);
   -moz-box-shadow: 0 0 15px #ccc;
   -webkit-box-shadow: 0 0 15px #ccc;
@@ -136,9 +136,10 @@ p.contact {
 
 }
 
-/* Styles for extra small mobile screens */
-@media only screen and (max-width: 380px) {
-  .contactInfoHolder {
-    margin-top: 70px !important;
+@media only screen and (min-width: 350px) and (max-width: 760px) {
+  div.contactInfoHolder {
+    margin-top: 7vh;
+    width: 350px;
+    height: 500px;
   }
 }
