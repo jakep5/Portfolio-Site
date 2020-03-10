@@ -30,6 +30,35 @@ let projects = [
         ]
     },
     {
+        "title": "Game Galaxy",
+        "screenshot": "https://user-images.githubusercontent.com/53489910/76363030-1a506f80-631a-11ea-88da-1ae35c4f11b1.png",
+        "applink": "https://game-galaxy.now.sh/",
+        "githublink": "https://github.com/jakep5/GameGalaxy",
+        "description": "Built using React.js, JavaScript, CSS, HTML, jQuery, and PostgreSQL. Allows users to search a game database for a wide range of games and add them to their profile, with the possibility of organizing into folders. Games can then be checked off when completed. Profile stats are displayed for total games completed and total games added.",
+        "languageIcons": [
+            {
+                "alt": "React icon",
+                "class": "reactIcon",
+                "src": "https://user-images.githubusercontent.com/53489910/71287326-04a55c80-2360-11ea-938c-5adfb757b701.png"
+            },
+            {
+                "alt": "Node.js icon",
+                "class": "nodeIcon",
+                "src": "https://user-images.githubusercontent.com/53489910/71287686-f441b180-2360-11ea-8a32-aa2e692e4b04.png"
+            },
+            {
+                "alt": "PostgreSQL icon",
+                "class": "postgresIcon",
+                "src": "https://user-images.githubusercontent.com/53489910/71287714-028fcd80-2361-11ea-9869-e9dbe2b971d4.png"
+            },
+            {
+                "alt": "CSS icon",
+                "class": "cssIcon",
+                "src": "https://user-images.githubusercontent.com/53489910/65455801-85bf8700-de37-11e9-8f26-ccd241c07287.png",
+            },
+        ]
+    },
+    {
         "title": "Lyric Genie",
         "screenshot": "https://user-images.githubusercontent.com/53489910/71280911-75467c00-2354-11ea-93f3-dc8a96c7fe7f.png",
         "applink": "https://jakep5.github.io/LyricGenie/",
