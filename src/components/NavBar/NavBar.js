@@ -59,7 +59,7 @@ export default class NavBar extends React.Component{
                     <a href="#skills" target="_blank" className={styles.skillsLink} id="skillsLink">Skills</a>
                     <a href="#projects" target="_blank" className={styles.projectsLink} id="projectsLink">Projects</a>
                     <a href="#contactInfoHolder" target="_blank" className={styles.contactInfoLink} id="contactInfoLink">Contact info</a>
-                    <a href="https://drive.google.com/file/d/10oJHxk9NMnHdX259kOfCoE3Y8xe72T-U/view?usp=sharing" target="_blank" className={styles.resumeLink} id="resumeLink">Resume</a>
+                    <a href="https://drive.google.com/file/d/1wAlZt5E60FzFfRAVbJV2Zmq4jPOD3LfP/view?usp=sharing" target="_blank" className={styles.resumeLink} id="resumeLink">Resume</a>
                 </div>
             </div>
         )
