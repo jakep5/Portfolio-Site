@@ -26,7 +26,7 @@ export default class ContactInfoSection extends Component {
 
                     <p className={styles.contact}>email: <a className={styles.contactInfoLink} href="mailto:jakepagel1@yahoo.com">jakepagel1@yahoo.com</a></p>
 
-                    <p className={styles.contact}>phone: 262-527-2421</p>
+                    <p className={styles.contact}>phone:  262-527-2421</p>
 
                     <p className={styles.contact}>github: <a className={styles.contactInfoLink} href="https://github.com/jakep5" target="_blank" rel="noopener noreferrer">jakep5</a></p>
 
