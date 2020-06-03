@@ -1,11 +1,11 @@
 /* Project store for use in project section */
-let projects = [
+let projects = [  
     {
-        "title": "Craft Digest",
-        "screenshot": "https://user-images.githubusercontent.com/53489910/71280721-f4878000-2353-11ea-9609-1d3d1de7d4e6.png",
-        "applink": "https://craft-digest.jakepagel1.now.sh/",
-        "githublink": "https://github.com/jakep5/craft-digest",
-        "description": "Built using React.js and Node.js, along with a PostgreSQL database. Allows users to input beers they have tried in the past and create a list for future reference. Users are given information about the beers they have added, displaying things like average ABV, common tasting notes, and favorite brewery. Utilizes JWT authentication for user sign in/sign up functionality.",
+        "title": "Game Galaxy",
+        "screenshot": "https://user-images.githubusercontent.com/53489910/76363030-1a506f80-631a-11ea-88da-1ae35c4f11b1.png",
+        "applink": "https://game-galaxy.now.sh/",
+        "githublink": "https://github.com/jakep5/GameGalaxy",
+        "description": "Built using React.js, JavaScript, CSS, HTML, jQuery, and PostgreSQL. Allows users to search a game database for a wide range of games and add them to their profile, with the possibility of organizing into folders. Games can then be checked off when completed. Profile stats are displayed for total games completed and total games added.",
         "languageIcons": [
             {
                 "alt": "React icon",
@@ -30,11 +30,40 @@ let projects = [
         ]
     },
     {
-        "title": "Game Galaxy",
-        "screenshot": "https://user-images.githubusercontent.com/53489910/76363030-1a506f80-631a-11ea-88da-1ae35c4f11b1.png",
-        "applink": "https://game-galaxy.now.sh/",
-        "githublink": "https://github.com/jakep5/GameGalaxy",
-        "description": "Built using React.js, JavaScript, CSS, HTML, jQuery, and PostgreSQL. Allows users to search a game database for a wide range of games and add them to their profile, with the possibility of organizing into folders. Games can then be checked off when completed. Profile stats are displayed for total games completed and total games added.",
+        "title": "Time Tracker",
+        "screenshot": "https://user-images.githubusercontent.com/53489910/83681090-7e946f80-a5a7-11ea-9905-71269ea2ffdb.png",
+        "applink": "https://time-tracker-jakepagel1.now.sh/",
+        "githublink": "https://github.com/jakep5/time-tracker-angular",
+        "description": "This application allows users to create a list of tasks they are currently working on, along with hours and priority for each task. Users can filter tasks by an alphabetic character, sort by priority/hours/name, and search for tasks in their list. This application also implements a leveling system for each user based on their total amount of hours logged.",
+        "languageIcons": [
+            {
+                "alt": "Angular icon",
+                "class": "angularIcon",
+                "src": "https://user-images.githubusercontent.com/53489910/83679061-640cc700-a5a4-11ea-9807-e98499d5407f.png"
+            },
+            {
+                "alt": "TypeScript icon",
+                "class": "typescriptIcon",
+                "src" : "https://user-images.githubusercontent.com/53489910/83679185-94546580-a5a4-11ea-8304-d809bdb4b8a7.png"
+            },
+            {
+                "alt": "SASS icon",
+                "class": "sassIcon",
+                "src": "https://user-images.githubusercontent.com/53489910/83679515-2197ba00-a5a5-11ea-8188-e9df4e7b3d75.png",
+            },
+            {
+                "alt": "Node.js icon",
+                "class": "nodeIcon",
+                "src": "https://user-images.githubusercontent.com/53489910/71287686-f441b180-2360-11ea-8a32-aa2e692e4b04.png"
+            },
+        ]
+    },
+    {
+        "title": "Craft Digest",
+        "screenshot": "https://user-images.githubusercontent.com/53489910/71280721-f4878000-2353-11ea-9609-1d3d1de7d4e6.png",
+        "applink": "https://craft-digest.jakepagel1.now.sh/",
+        "githublink": "https://github.com/jakep5/craft-digest",
+        "description": "Built using React.js and Node.js, along with a PostgreSQL database. Allows users to input beers they have tried in the past and create a list for future reference. Users are given information about the beers they have added, displaying things like average ABV, common tasting notes, and favorite brewery. Utilizes JWT authentication for user sign in/sign up functionality.",
         "languageIcons": [
             {
                 "alt": "React icon",
@@ -116,6 +145,7 @@ let projects = [
             }
         ]
     },
+    
 ]
 /**/
 

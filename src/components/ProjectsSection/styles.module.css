@@ -122,6 +122,16 @@ p.projectDescription {
   height:auto;
 }
 
+.nodeIcon {
+  width: 25px;
+  height: auto;
+}
+
+.sassIcon {
+  width: 25px;
+  height: auto;
+}
+
 .javascriptIcon {
   width: 30px;
   height: auto;
@@ -403,7 +413,7 @@ a {
 
 @media only screen and (device-width: 375px) and (device-height: 812px) {
   a.scrollDownProject {
-    top: 35px;
+    top: 45px;
   }
 
   p.projectDescription {

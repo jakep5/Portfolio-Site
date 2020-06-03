@@ -27,7 +27,7 @@ export default class ProjectsSection extends Component {
     /**/
     
     handleProjectChange = (e) => {
-        if (this.state.currentProject === 2) {
+        if (this.state.currentProject === 4) {
             this.setState({
                 currentProject: 0,
             })

@@ -105,7 +105,7 @@ a.bioLink, a.skillsLink, a.projectsLink, a.contactInfoLink {
 
 /* Remove nav bar for smaller screens */
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 905px) {
   .nav {
     display: none !important;
   }
